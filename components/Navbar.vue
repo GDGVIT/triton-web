@@ -26,15 +26,15 @@
       :class="open ? 'block' : 'hidden'"
       class="w-full flex-grow sm:flex sm:items-center sm:w-auto"
     >
-      <div class="text-sm sm:flex-grow">
+      <div class="text-base sm:text-sm sm:flex-grow">
         <a
-          href="#responsive-header"
+          href="#about"
           class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-amber mr-4"
         >
           About
         </a>
         <a
-          href="#responsive-header"
+          href="#changelog"
           class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-amber mr-4"
         >
           Changelog
@@ -113,5 +113,6 @@ export default {
 <style scoped>
 .nav-bg {
   background: #1a1a1a;
+  font-family: 'JetbrainsMono', Courier, monospace;
 }
 </style>
