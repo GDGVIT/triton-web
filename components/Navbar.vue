@@ -10,19 +10,17 @@
       </nuxt-link>
     </div>
     <div class="block sm:hidden">
-      <button
-        class="flex items-center px-3 py-2 border rounded border-white text-white hover:text-amber hover:border-amber"
-        @click="toggle"
+      <svg
+        v-if="showSave"
+        class="h-8 w-8 cursor-pointer fill-current text-white hover:text-amber"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        @click="handleSave"
       >
-        <svg
-          class="fill-current h-3 w-3"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <title>Menu</title>
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-        </svg>
-      </button>
+        <path
+          d="M17.6 3.6c-.4-.4-.9-.6-1.4-.6H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V7.8c0-.5-.2-1-.6-1.4l-2.8-2.8zM12 19c-1.7 0-3-1.3-3-3s1.3-3 3-3 3 1.3 3 3-1.3 3-3 3zm1-10H7c-1.1 0-2-.9-2-2s.9-2 2-2h6c1.1 0 2 .9 2 2s-.9 2-2 2z"
+        />
+      </svg>
     </div>
     <div
       :class="open ? 'block' : 'hidden'"
@@ -101,11 +99,7 @@ export default {
             }
           )
 
-          if (isUrl) {
-            this.$router.push({ path: `v/${pasteId}` })
-          } else {
-            this.$router.push({ path: pasteId })
-          }
+          this.$$router.push({ path: `${isUrl ? 'v/' : ''}${pasteId}` })
         } catch (err) {
           // eslint-disable-next-line no-console
           console.log(err)
