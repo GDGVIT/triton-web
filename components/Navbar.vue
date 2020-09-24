@@ -85,7 +85,7 @@ export default {
       this.open = !this.open
     },
     async handleSave() {
-      if (this.$store.state.inputs.textInput) {
+      if (this.$store.state.inputs.textInput !== '') {
         try {
           const content = this.$store.state.inputs.textInput
           const isUrl = validURL(content)

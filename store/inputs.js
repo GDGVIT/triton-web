@@ -1,5 +1,5 @@
 export const state = () => ({
-  textInput: 'd',
+  textInput: '',
 })
 
 export const mutations = {
