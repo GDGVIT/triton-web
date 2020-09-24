@@ -14,7 +14,7 @@ export default {
     if (params.v === 'v') {
       try {
         const { content, is_url: isUrl } = await $axios.$get(
-          `https://katbin.herokuapp.com/api/paste/${paste}`
+          `https://api.katb.in/api/paste/${paste}`
         )
 
         return {

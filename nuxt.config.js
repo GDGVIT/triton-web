@@ -50,7 +50,7 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
-    baseURL: 'https://katbin.herokuapp.com/api',
+    baseURL: 'https://api.katb.in/api',
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)

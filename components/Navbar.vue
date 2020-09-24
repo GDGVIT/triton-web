@@ -92,7 +92,7 @@ export default {
           const content = this.$store.state.inputs.textInput
           const isUrl = validURL(content)
           const { paste_id: pasteId } = await this.$axios.$post(
-            'https://katbin.herokuapp.com/api/paste',
+            'https://api.katb.in/api/paste',
             {
               is_url: isUrl,
               content,
