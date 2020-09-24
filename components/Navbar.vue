@@ -99,7 +99,7 @@ export default {
             }
           )
 
-          this.$$router.push({ path: `${isUrl ? 'v/' : ''}${pasteId}` })
+          this.$router.push({ path: `${isUrl ? 'v/' : ''}${pasteId}` })
         } catch (err) {
           // eslint-disable-next-line no-console
           console.log(err)
