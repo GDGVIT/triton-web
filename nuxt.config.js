@@ -39,7 +39,7 @@ export default {
     [
       'nuxt-highlightjs',
       {
-        style: 'obsidian',
+        style: 'vs2015',
       },
     ],
   ],

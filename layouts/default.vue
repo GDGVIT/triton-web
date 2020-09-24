@@ -52,4 +52,9 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+@font-face {
+  font-family: 'JetbrainsMono';
+  src: url(~assets/font/JetBrainsMono-Regular.woff);
+}
 </style>

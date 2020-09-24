@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="flex items-center justify-between flex-wrap bg-teal-500 py-4 px-6"
+    class="nav-bg font-sans flex items-center justify-between flex-wrap py-3 px-6"
   >
     <div class="flex items-center flex-no-shrink text-white mr-6">
       <span class="font-semibold text-xl tracking-tight">Katbin</span>
@@ -27,13 +27,13 @@
       <div class="text-sm sm:flex-grow">
         <a
           href="#responsive-header"
-          class="no-underline block mt-4 sm:inline-block sm:mt-0 text-teal-lighter hover:text-white mr-4"
+          class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-amber mr-4"
         >
           About
         </a>
         <a
           href="#responsive-header"
-          class="no-underline block mt-4 sm:inline-block sm:mt-0 text-teal-lighter hover:text-white mr-4"
+          class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-amber mr-4"
         >
           Changelog
         </a>
@@ -64,3 +64,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.nav-bg {
+  background: #1a1a1a;
+}
+</style>

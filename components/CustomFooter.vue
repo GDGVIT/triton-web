@@ -1,8 +1,11 @@
 <template>
   <div
-    class="flex bg-teal-500 px-6 py-1 justify-between font-sans text-gray-200"
+    class="amber-color flex px-4 py-1 justify-between font-sans text-teal-300 hover:text-teal-400"
+    style="background: #1a1a1a"
   >
-    <strong>{{ '© ' + new Date().getFullYear() + ' SphericalKat' }}</strong>
+    <a href="https://github.com/ATechnoHazard"
+      ><span>© {{ new Date().getFullYear() }} SphericalKat</span></a
+    >
   </div>
 </template>
 
@@ -11,5 +14,3 @@ export default {
   name: 'CustomFooter',
 }
 </script>
-
-<style></style>

@@ -36,7 +36,7 @@ export default {
 }
 */
 :root {
-  /* background: #282b2e; */
+  background: #212121;
 }
 
 ::-webkit-scrollbar {
@@ -51,14 +51,17 @@ export default {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 8px;
-  @apply bg-teal-500;
+  @apply bg-amber;
 }
 
 .hljs {
   white-space: pre;
   overflow-y: scroll;
   overflow: auto;
+  background: #212121;
   overflow-wrap: break-word;
   padding-left: 2rem;
+  font-family: 'JetbrainsMono', Courier, monospace;
+  font-size: 0.85em;
 }
 </style>
