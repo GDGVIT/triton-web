@@ -10,26 +10,26 @@
 export default {
   // eslint-disable-next-line require-await
   async asyncData({ params, $axios, redirect }) {
-    const paste = params.paste
-    try {
-      const { content, is_url: isUrl } = await $axios.$get(
-        `https://katbin.herokuapp.com/api/paste/${paste}`
-      )
+    const paste = params.urlpaste
+    if (params.v === 'v') {
+      try {
+        const { content, is_url: isUrl } = await $axios.$get(
+          `https://katbin.herokuapp.com/api/paste/${paste}`
+        )
 
-      if (isUrl) {
-        redirect(content)
+        return {
+          content,
+          isUrl,
+        }
+      } catch (err) {
+        redirect('/')
+        return {
+          content: '',
+          isUrl: false,
+        }
       }
-
-      return {
-        content,
-        isUrl,
-      }
-    } catch (err) {
+    } else {
       redirect('/')
-      return {
-        content: '',
-        isUrl: false,
-      }
     }
   },
 }

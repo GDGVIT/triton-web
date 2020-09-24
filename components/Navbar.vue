@@ -88,15 +88,20 @@ export default {
       if (this.$store.state.inputs.textInput) {
         try {
           const content = this.$store.state.inputs.textInput
+          const isUrl = validURL(content)
           const { paste_id: pasteId } = await this.$axios.$post(
             'https://katbin.herokuapp.com/api/paste',
             {
-              is_url: validURL(content),
+              is_url: isUrl,
               content,
             }
           )
 
-          this.$router.push({ path: pasteId })
+          if (isUrl) {
+            this.$router.push({ path: `v/${pasteId}` })
+          } else {
+            this.$router.push({ path: pasteId })
+          }
         } catch (err) {
           // eslint-disable-next-line no-console
           console.log(err)
