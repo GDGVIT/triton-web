@@ -62,6 +62,6 @@ export default {
   overflow-wrap: break-word;
   padding-left: 2rem;
   font-family: 'JetbrainsMono', Courier, monospace;
-  font-size: 0.85em;
+  font-size: 14px;
 }
 </style>

@@ -55,6 +55,6 @@ html {
 
 @font-face {
   font-family: 'JetbrainsMono';
-  src: url(~assets/font/JetBrainsMono-Regular.woff);
+  src: url(~assets/font/JetBrainsMono-Bold.woff);
 }
 </style>
