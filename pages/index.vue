@@ -36,5 +36,6 @@ textarea {
   background: #212121;
   color: white;
   font-family: 'JetbrainsMono', Courier, monospace;
+  font-size: 14px;
 }
 </style>

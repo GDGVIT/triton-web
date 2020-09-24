@@ -61,6 +61,7 @@ export default {
   background: #212121;
   overflow-wrap: break-word;
   padding-left: 2rem;
+  padding-top: 1rem;
   font-family: 'JetbrainsMono', Courier, monospace;
   font-size: 14px;
 }
