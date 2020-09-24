@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex px-4 py-1 justify-between text-amber"
+    class="flex px-4 py-1 text-xs sm:text-base justify-between text-amber"
     style="background: #1a1a1a; font-family: JetbrainsMono"
   >
     <a href="https://sphericalkat.dev"
