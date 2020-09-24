@@ -1,17 +1,29 @@
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col h-screen">
     <Navbar />
-    <h1 class="title">{{ paste }}</h1>
+    <code v-highlight="content" class="break-word pl-4 h-full"></code>
+    <CustomFooter />
   </div>
 </template>
 
 <script>
 export default {
   // eslint-disable-next-line require-await
-  async asyncData({ params }) {
+  async asyncData({ params, $axios }) {
     const paste = params.paste
-    return {
-      paste,
+    try {
+      const { content, is_url: isUrl } = await $axios.$get(
+        `https://katbin.herokuapp.com/api/paste/${paste}`
+      )
+      return {
+        content,
+        isUrl,
+      }
+    } catch (err) {
+      return {
+        content: '',
+        isUrl: false,
+      }
     }
   },
 }
@@ -23,4 +35,30 @@ export default {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
+:root {
+  /* background: #282b2e; */
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  @apply bg-teal-500;
+}
+
+.hljs {
+  white-space: pre;
+  overflow-y: scroll;
+  overflow: auto;
+  overflow-wrap: break-word;
+  padding-left: 2rem;
+}
 </style>
