@@ -23,10 +23,6 @@ export default {
         }
       } catch (err) {
         redirect('/')
-        return {
-          content: '',
-          isUrl: false,
-        }
       }
     } else {
       redirect('/')

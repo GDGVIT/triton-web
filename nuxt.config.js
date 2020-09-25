@@ -63,4 +63,9 @@ export default {
       description: 'The cutest pastebin and URL shortener ever!',
     },
   },
+
+  loading: {
+    color: '#ff9800',
+    height: '5px',
+  },
 }

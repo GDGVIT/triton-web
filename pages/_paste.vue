@@ -8,7 +8,6 @@
 
 <script>
 export default {
-  // eslint-disable-next-line require-await
   async asyncData({ params, $axios, redirect }) {
     const paste = params.paste
     try {
@@ -26,10 +25,6 @@ export default {
       }
     } catch (err) {
       redirect('/')
-      return {
-        content: '',
-        isUrl: false,
-      }
     }
   },
 }
