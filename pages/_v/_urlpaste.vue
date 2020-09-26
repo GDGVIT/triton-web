@@ -14,7 +14,10 @@ export default {
     if (params.v === 'v') {
       try {
         const { content, is_url: isUrl } = await $axios.$get(
-          `https://api.katb.in/api/paste/${paste}`
+          `https://api.katb.in/api/paste/${paste}`,
+          {
+            withCredentials: true,
+          }
         )
 
         return {

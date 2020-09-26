@@ -96,6 +96,9 @@ export default {
             {
               is_url: isUrl,
               content,
+            },
+            {
+              withCredentials: true,
             }
           )
 
