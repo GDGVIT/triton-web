@@ -159,6 +159,8 @@ export default {
             { withCredentials: true }
           )
 
+          this.$store.commit('inputs/set', '')
+
           this.$router.push({ path: `${isUrl ? 'v/' : ''}${pasteId}` })
         } catch (err) {
           // eslint-disable-next-line no-console
