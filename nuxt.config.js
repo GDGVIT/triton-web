@@ -68,4 +68,8 @@ export default {
     color: '#ff9800',
     height: '5px',
   },
+
+  router: {
+    middleware: 'reset',
+  },
 }

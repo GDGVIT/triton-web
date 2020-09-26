@@ -13,21 +13,21 @@
 
 <script>
 export default {
-  data() {
-    return {
-      textInput: '',
-    }
-  },
+  computed: {
+    textInput: {
+      get() {
+        return this.$store.state.inputs.textInput
+      },
 
-  watch: {
-    textInput(newValue, oldValue) {
-      this.$store.commit('inputs/set', this.textInput)
+      set(value) {
+        this.$store.commit('inputs/set', value)
+      },
     },
   },
 }
 </script>
 
-<style scoped>
+<style>
 :root {
   background: #212121;
 }

@@ -1,44 +1,57 @@
 <template>
   <div class="flex flex-col h-screen">
     <Navbar />
-    <code v-highlight="content" class="break-word pl-4 h-full"></code>
+    <code
+      v-if="!$store.state.pastes.isEdit"
+      v-highlight="$store.state.pastes.content.content"
+      class="break-word pl-4 h-full"
+    ></code>
+    <textarea
+      v-else
+      v-model="textEdit"
+      spellcheck="false"
+      class="h-full px-6 py-4 outline-none"
+    ></textarea>
     <CustomFooter />
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData({ params, $axios, redirect }) {
+  async fetch() {
+    const { params, $axios, redirect, store } = this.$nuxt.context
     const paste = params.paste
     try {
-      const { content, is_url: isUrl } = await $axios.$get(
+      const pasteContent = await $axios.$get(
         `https://api.katb.in/api/paste/${paste}`,
-        {
-          withCredentials: true,
-        }
+        { withCredentials: true }
       )
 
-      if (isUrl) {
-        redirect(content)
+      if (pasteContent.is_url) {
+        redirect(pasteContent.content)
       }
 
-      return {
-        content,
-        isUrl,
-      }
+      store.commit('pastes/setContent', pasteContent)
     } catch (err) {
       redirect('/')
     }
+  },
+
+  computed: {
+    textEdit: {
+      get() {
+        return this.$store.state.pastes.content.content
+      },
+
+      set(value) {
+        this.$store.commit('pastes/setContentText', value)
+      },
+    },
   },
 }
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
 :root {
   background: #212121;
 }

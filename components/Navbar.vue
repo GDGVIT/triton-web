@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="nav-bg font-sans flex items-center justify-between flex-wrap py-3 px-6"
+    class="nav-bg font-sans flex items-center justify-between flex-wrap py-3 px-6 h-16"
   >
     <div class="flex items-center flex-no-shrink text-white mr-6">
       <nuxt-link to="/">
@@ -9,10 +9,29 @@
         >
       </nuxt-link>
     </div>
-    <div class="block sm:hidden">
+    <div class="flex sm:hidden">
       <svg
-        v-if="showSave"
-        class="h-8 w-8 cursor-pointer fill-current text-white hover:text-amber"
+        v-if="
+          this.$store.state.pastes.content.is_owner &&
+          !$store.state.pastes.isEdit &&
+          $route.name !== 'index'
+        "
+        class="h-6 w-6 cursor-pointer fill-current text-white mr-4 hover:text-amber"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        @click="handleEdit"
+      >
+        <path
+          d="M3 17.46v3.04c0 .28.22.5.5.5h3.04c.13 0 .26-.05.35-.15L17.81 9.94l-3.75-3.75L3.15 17.1c-.1.1-.15.22-.15.36zM20.71 7.04a.996.996 0 0 0 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+        />
+      </svg>
+
+      <svg
+        v-if="
+          (showSave && this.$store.state.inputs.textInput !== '') ||
+          $store.state.pastes.isEdit
+        "
+        class="h-6 w-6 cursor-pointer fill-current text-white hover:text-amber"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         @click="handleSave"
@@ -40,10 +59,29 @@
           Changelog
         </a>
       </div>
-      <div>
+      <div class="flex">
         <svg
-          v-if="showSave"
-          class="h-8 w-8 cursor-pointer fill-current text-white hover:text-amber"
+          v-if="
+            this.$store.state.pastes.content.is_owner &&
+            !$store.state.pastes.isEdit &&
+            $route.name !== 'index'
+          "
+          class="h-6 w-6 cursor-pointer fill-current text-white hover:text-amber"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          @click="handleEdit"
+        >
+          <path
+            d="M3 17.46v3.04c0 .28.22.5.5.5h3.04c.13 0 .26-.05.35-.15L17.81 9.94l-3.75-3.75L3.15 17.1c-.1.1-.15.22-.15.36zM20.71 7.04a.996.996 0 0 0 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+          />
+        </svg>
+
+        <svg
+          v-if="
+            (showSave && this.$store.state.inputs.textInput !== '') ||
+            $store.state.pastes.isEdit
+          "
+          class="h-6 w-6 cursor-pointer fill-current text-white hover:text-amber"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           @click="handleSave"
@@ -79,27 +117,46 @@ export default {
   data() {
     return {
       open: false,
-      inputPaste: '',
+      isEdit: false,
     }
   },
+
   methods: {
     toggle() {
       this.open = !this.open
     },
+
+    handleEdit() {
+      this.$store.commit('pastes/setIsEdit', true)
+    },
+
     async handleSave() {
-      if (this.$store.state.inputs.textInput !== '') {
+      if (this.$store.state.pastes.isEdit) {
+        try {
+          const {
+            id,
+          } = await this.$axios.$patch(
+            'https://api.katb.in/api/paste',
+            this.$store.state.pastes.content,
+            { withCredentials: true }
+          )
+          this.$store.commit('pastes/setIsEdit', false)
+          this.$router.go({ path: `/${id}`, force: true })
+        } catch (err) {
+          this.$store.commit('pastes/setIsEdit', false)
+          this.$router.go({
+            path: `/${this.$store.state.pastes.content.id}`,
+            force: true,
+          })
+        }
+      } else if (this.$store.state.inputs.textInput !== '') {
         try {
           const content = this.$store.state.inputs.textInput
           const isUrl = validURL(content)
           const { paste_id: pasteId } = await this.$axios.$post(
             'https://api.katb.in/api/paste',
-            {
-              is_url: isUrl,
-              content,
-            },
-            {
-              withCredentials: true,
-            }
+            { is_url: isUrl, content },
+            { withCredentials: true }
           )
 
           this.$router.push({ path: `${isUrl ? 'v/' : ''}${pasteId}` })
