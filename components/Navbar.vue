@@ -14,7 +14,8 @@
         v-if="
           this.$store.state.pastes.content.is_owner &&
           !$store.state.pastes.isEdit &&
-          $route.name !== 'index'
+          $route.name !== 'index' &&
+          $route.name !== 'about'
         "
         class="h-6 w-6 cursor-pointer fill-current text-white mr-4 hover:text-amber"
         xmlns="http://www.w3.org/2000/svg"
@@ -46,18 +47,20 @@
       class="w-full flex-grow sm:flex sm:items-center sm:w-auto"
     >
       <div class="text-base sm:text-sm sm:flex-grow">
-        <a
-          href="#about"
+        <nuxt-link
+          to="/about"
           class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-amber mr-4"
+          :class="{ 'text-amber': isAbout }"
         >
           About
-        </a>
-        <a
-          href="#changelog"
+        </nuxt-link>
+        <nuxt-link
+          to="#"
           class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-amber mr-4"
+          :class="{ 'text-amber': isChangelog }"
         >
           Changelog
-        </a>
+        </nuxt-link>
       </div>
       <div class="flex">
         <svg
@@ -113,6 +116,8 @@ export default {
   name: 'Navbar',
   props: {
     showSave: Boolean,
+    isAbout: Boolean,
+    isChangelog: Boolean,
   },
   data() {
     return {
