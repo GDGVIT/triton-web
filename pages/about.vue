@@ -44,8 +44,11 @@
       <p class="text-body sm:pr-64">
         katbin is fully open source and built on open source technology. All
         sources can be found on
-        <a class="underline hover:text-amber cursor-pointer">GitHub</a>. You can
-        easily deploy it yourself wherever you want.
+        <a
+          class="underline hover:text-amber cursor-pointer"
+          href="https://github.com/ATechnoHazard"
+          >GitHub</a
+        >. You can easily deploy it yourself wherever you want.
       </p>
       <br />
       <h1 class="text-title sm:pr-64">Contact</h1>
