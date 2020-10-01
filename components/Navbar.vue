@@ -126,6 +126,14 @@ export default {
     }
   },
 
+  mounted() {
+    document.addEventListener('keydown', this.doSave)
+  },
+
+  beforeDestroy() {
+    document.removeEventListener('keydown', this.doSave)
+  },
+
   methods: {
     toggle() {
       this.open = !this.open
@@ -133,6 +141,15 @@ export default {
 
     handleEdit() {
       this.$store.commit('pastes/setIsEdit', true)
+    },
+
+    doSave(e) {
+      if (!(e.keyCode === 83 && e.ctrlKey)) {
+        return
+      }
+
+      e.preventDefault()
+      this.handleSave()
     },
 
     async handleSave() {
