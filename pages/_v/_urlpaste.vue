@@ -28,10 +28,6 @@ export default {
           { withCredentials: true }
         )
 
-        if (pasteContent.is_url) {
-          redirect(pasteContent.content)
-        }
-
         store.commit('pastes/setContent', pasteContent)
       } catch (err) {
         redirect('/')
