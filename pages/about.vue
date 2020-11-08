@@ -46,7 +46,7 @@
         sources can be found on
         <a
           class="underline hover:text-amber cursor-pointer"
-          href="https://github.com/ATechnoHazard"
+          href="https://github.com/SphericalKat"
           >GitHub</a
         >. You can easily deploy it yourself wherever you want.
       </p>
