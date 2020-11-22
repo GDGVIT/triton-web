@@ -81,8 +81,9 @@
 
         <svg
           v-if="
-            (showSave && this.$store.state.inputs.textInput !== '') ||
-            $store.state.pastes.isEdit
+            this.$store.state.inputs.textInput !== '' && (
+              showSave || $store.state.pastes.isEdit
+            )
           "
           class="h-6 w-6 cursor-pointer fill-current text-white hover:text-amber"
           xmlns="http://www.w3.org/2000/svg"
