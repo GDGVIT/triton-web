@@ -147,10 +147,12 @@ export default {
 
   mounted() {
     document.addEventListener('keydown', this.doSave)
+    document.addEventListener('keydown', this.doCopy)
   },
 
   beforeDestroy() {
     document.removeEventListener('keydown', this.doSave)
+    document.removeEventListener('keydown', this.doCopy)
   },
 
   methods: {
@@ -188,6 +190,15 @@ export default {
 
       e.preventDefault()
       this.handleSave()
+    },
+
+    doCopy(e) {
+      if (!(e.keyCode === 67 && e.ctrlKey)) {
+        return
+      }
+
+      e.preventDefault()
+      this.handleCopy()
     },
 
     async handleSave() {
