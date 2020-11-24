@@ -118,6 +118,7 @@
 </template>
 
 <script>
+import {copyToClipboard} from "~/plugins/clipboard"
 const validURL = (str) => {
   const pattern = new RegExp(
     '^(https?:\\/\\/)?' + // protocol
@@ -164,25 +165,6 @@ export default {
       this.$store.commit('pastes/setIsEdit', true)
     },
 
-    handleCopy() {
-      var d = document.getElementsByTagName('code')[0].innerHTML
-      d = d.replace(/<\/?span[^>]*>/g, '')
-      navigator.permissions
-        .query({ name: 'clipboard-write' })
-        .then((result) => {
-          if (result.state == 'granted' || result.state == 'prompt') {
-            navigator.clipboard.writeText(d).then(
-              function () {
-                console.log('copied to clipboard')
-              },
-              function () {
-                console.error('Unable to copy to clipboard')
-              }
-            )
-          }
-        })
-    },
-
     doSave(e) {
       if (!(e.keyCode === 83 && e.ctrlKey)) {
         return
@@ -192,11 +174,14 @@ export default {
       this.handleSave()
     },
 
+    handleCopy(){
+      copyToClipboard()
+    },
+
     doCopy(e) {
       if (!(e.keyCode === 67 && e.ctrlKey)) {
         return
       }
-
       e.preventDefault()
       this.handleCopy()
     },
