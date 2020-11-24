@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <div class="copy-bg sm:hidden">
       <button
         aria-label="Copy"
         v-if="
@@ -8,7 +8,7 @@
           $route.name !== 'index' &&
           $route.name !== 'about'
         "
-        class="h-6 w-6 cursor-pointer fill-current text-white mr-4 hover:text-amber copy-btn"
+        class="h-6 w-6 cursor-pointer fill-current text-white mr-4 copy-btn"
         viewBox="0 0 24 24"
         @click="handleCopy"
       >
@@ -49,10 +49,10 @@ export default {
           if (result.state == 'granted' || result.state == 'prompt') {
             navigator.clipboard.writeText(d).then(
               function () {
-                console.log("copied to clipboard")
+                console.log('copied to clipboard')
               },
               function () {
-                console.error("Unable to copy to clipboard")
+                console.error('Unable to copy to clipboard')
               }
             )
           }
@@ -65,8 +65,20 @@ export default {
 <style scoped>
 .copy-btn {
   z-index: 1;
+  margin: 12px;
   position: absolute;
-  bottom: -1;
+}
+.copy-bg {
+  z-index: 1;
+  margin-bottom: 32px;
+  margin-right: 16px;
+  position: absolute;
+  bottom: 0;
   right: 0;
+  height: 48px;
+  width: 48px;
+  border-radius: 48px;
+  border: none;
+  background-color: #ff9800;
 }
 </style>
