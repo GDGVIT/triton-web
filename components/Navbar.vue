@@ -93,12 +93,32 @@
             d="M17.6 3.6c-.4-.4-.9-.6-1.4-.6H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V7.8c0-.5-.2-1-.6-1.4l-2.8-2.8zM12 19c-1.7 0-3-1.3-3-3s1.3-3 3-3 3 1.3 3 3-1.3 3-3 3zm1-10H7c-1.1 0-2-.9-2-2s.9-2 2-2h6c1.1 0 2 .9 2 2s-.9 2-2 2z"
           />
         </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          aria-label="Copy"
+          v-if="
+            !$store.state.pastes.isEdit &&
+            $route.name !== 'index' &&
+            $route.name !== 'about'
+          "
+          class="h-6 w-6 cursor-pointer fill-current text-white hover:text-amber ml-4 copy-btn sm:hidden md:inline-block"
+          @click="handleCopy"
+        >
+          <path d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"
+          />
+        </svg>
       </div>
     </div>
   </nav>
 </template>
 
 <script>
+import {copyToClipboard} from "~/plugins/clipboard"
 const validURL = (str) => {
   const pattern = new RegExp(
     '^(https?:\\/\\/)?' + // protocol
@@ -128,10 +148,12 @@ export default {
 
   mounted() {
     document.addEventListener('keydown', this.doSave)
+    document.addEventListener('keydown', this.doCopy)
   },
 
   beforeDestroy() {
     document.removeEventListener('keydown', this.doSave)
+    document.removeEventListener('keydown', this.doCopy)
   },
 
   methods: {
@@ -150,6 +172,18 @@ export default {
 
       e.preventDefault()
       this.handleSave()
+    },
+
+    handleCopy(){
+      copyToClipboard()
+    },
+
+    doCopy(e) {
+      if (!(e.keyCode === 67 && e.ctrlKey)) {
+        return
+      }
+      e.preventDefault()
+      this.handleCopy()
     },
 
     async handleSave() {

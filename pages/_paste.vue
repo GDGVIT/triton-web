@@ -3,6 +3,7 @@
     <Navbar />
     <code
       v-if="!$store.state.pastes.isEdit"
+      id="content"
       v-highlight="$store.state.pastes.content.content"
       class="break-word pl-4 h-full"
     ></code>
