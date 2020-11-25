@@ -1,6 +1,13 @@
 <template>
   <div>
-    <div class="copy-bg sm:hidden">
+    <div
+      class="copy-bg sm:hidden"
+      v-if="
+        !$store.state.pastes.isEdit &&
+        $route.name !== 'index' &&
+        $route.name !== 'about'
+      "
+    >
       <button
         aria-label="Copy"
         v-if="
@@ -37,7 +44,7 @@
 </template>
 
 <script>
-import {copyToClipboard} from "~/plugins/clipboard"
+import { copyToClipboard } from '~/plugins/clipboard'
 
 export default {
   name: 'CustomFooter',
