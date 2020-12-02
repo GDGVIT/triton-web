@@ -82,7 +82,8 @@
         <svg
           v-if="
             (showSave && this.$store.state.inputs.textInput !== '') ||
-            $store.state.pastes.isEdit
+            ($store.state.pastes.isEdit &&
+              this.$store.state.inputs.textEdit !== '')
           "
           class="h-6 w-6 cursor-pointer fill-current text-white hover:text-amber"
           xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +119,7 @@
 </template>
 
 <script>
-import {copyToClipboard} from "~/plugins/clipboard"
+import { copyToClipboard } from '~/plugins/clipboard'
 const validURL = (str) => {
   const pattern = new RegExp(
     '^(https?:\\/\\/)?' + // protocol
@@ -174,7 +175,7 @@ export default {
       this.handleSave()
     },
 
-    handleCopy(){
+    handleCopy() {
       copyToClipboard()
     },
 
