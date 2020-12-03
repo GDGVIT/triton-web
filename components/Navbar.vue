@@ -176,7 +176,7 @@ export default {
     },
 
     handleCopy() {
-      copyToClipboard()
+      copyToClipboard(this.$store)
     },
 
     doCopy(e) {

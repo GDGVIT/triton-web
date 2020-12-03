@@ -50,7 +50,7 @@ export default {
   name: 'CustomFooter',
   methods: {
     handleCopy() {
-      copyToClipboard()
+      copyToClipboard(this.$store)
     },
   },
 }
