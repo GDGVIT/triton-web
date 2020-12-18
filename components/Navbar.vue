@@ -95,16 +95,16 @@
           />
         </svg>
         <svg
-          xmlns="http://www.w3.org/2000/svg"
-          height="24"
-          viewBox="0 0 24 24"
-          width="24"
-          aria-label="Copy"
           v-if="
             !$store.state.pastes.isEdit &&
             $route.name !== 'index' &&
             $route.name !== 'about'
           "
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          aria-label="Copy"
           class="h-6 w-6 cursor-pointer fill-current text-white hover:text-amber ml-4 copy-btn sm:hidden md:inline-block"
           @click="handleCopy"
         >

@@ -1,20 +1,20 @@
 <template>
   <div>
     <div
-      class="copy-bg sm:hidden"
       v-if="
         !$store.state.pastes.isEdit &&
         $route.name !== 'index' &&
         $route.name !== 'about'
       "
+      class="copy-bg sm:hidden"
     >
       <button
-        aria-label="Copy"
         v-if="
           !$store.state.pastes.isEdit &&
           $route.name !== 'index' &&
           $route.name !== 'about'
         "
+        aria-label="Copy"
         class="h-6 w-6 cursor-pointer fill-current text-white mr-4 copy-btn"
         viewBox="0 0 24 24"
         @click="handleCopy"
