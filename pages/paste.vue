@@ -1,0 +1,184 @@
+/* eslint-disable vue/no-v-html */ /* eslint-disable no-console */
+<template>
+  <div class="flex flex-col h-screen">
+    <Navbar />
+    <code
+      v-if="!$store.state.pastes.isEdit && !isMarkdown"
+      id="content"
+      v-highlight="$store.state.pastes.content.content"
+      class="break-word pl-4 h-full nomarkdown"
+    ></code>
+    <div
+      v-else-if="isMarkdown"
+      class="text-white sm:w-3/4 sm:m-auto markdown w-full link-color"
+      v-html="$md.render($store.state.pastes.content.content)"
+    ></div>
+    <textarea
+      v-else
+      v-model="textEdit"
+      spellcheck="false"
+      class="h-full px-6 py-4 outline-none"
+    ></textarea>
+    <CustomFooter />
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      isMarkdown: false,
+    }
+  },
+  async fetch() {
+    const { params, $axios, redirect, store } = this.$nuxt.context
+    const paste = params.paste
+    const extension = paste.split('.')
+    this.isMarkdown = extension[1] === 'md'
+
+    try {
+      const pasteContent = await $axios.$get(
+        `https://api.katb.in/api/paste/${extension[0]}`,
+        { withCredentials: true }
+      )
+
+      if (pasteContent.is_url) {
+        redirect(pasteContent.content)
+      }
+
+      store.commit('pastes/setContent', pasteContent)
+    } catch (err) {
+      redirect('/')
+    }
+  },
+
+  computed: {
+    textEdit: {
+      get() {
+        return this.$store.state.pastes.content.content
+      },
+
+      set(value) {
+        this.$store.commit('pastes/setContentText', value)
+      },
+    },
+  },
+}
+</script>
+
+<style>
+:root {
+  background: #212121;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  @apply bg-amber;
+}
+
+.nomarkdown {
+  white-space: pre;
+  overflow-y: scroll;
+  overflow: auto;
+  background: #212121;
+  overflow-wrap: break-word;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  font-family: 'JetbrainsMono', Courier, monospace;
+  font-size: 14px;
+}
+
+img {
+  max-width: 35%;
+  vertical-align: middle;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 4px solid #8b949e;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #1b1b1b;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #1b1b1b;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border: 1px solid #3b434b;
+}
+
+.link-color a {
+  color: #ff9800;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #3b434b;
+}
+
+.markdown {
+  border: 1px solid #3b434b;
+  border-radius: 6px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.markdown pre {
+  padding: 12px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #1b1b1b;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+.markdown code pre tt {
+  font-family: 'JetbrainsMono', SFMono-Regular, Consolas, Liberation Mono, Menlo,
+    monospace;
+}
+
+.markdown .hljs {
+  background: #1b1b1b;
+  font-family: 'JetbrainsMono', SFMono-Regular, Consolas, Liberation Mono, Menlo,
+    monospace;
+}
+
+h1,
+h2 {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #3b434b;
+}
+</style>

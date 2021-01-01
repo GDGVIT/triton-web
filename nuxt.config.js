@@ -1,3 +1,4 @@
+import { sortRoutes } from '@nuxt/utils'
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'server',
@@ -18,7 +19,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [],
+  css: [{ src: '~/node_modules/highlight.js/styles/dracula.css', lang: 'css' }],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: ['~/plugins/clipboard.js'],
@@ -28,8 +29,6 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
   ],
@@ -43,9 +42,10 @@ export default {
     [
       'nuxt-highlightjs',
       {
-        style: 'vs2015',
+        style: 'dracula',
       },
     ],
+    '@nuxtjs/markdownit',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -70,6 +70,28 @@ export default {
   },
 
   router: {
-    middleware: 'reset',
+    // middleware: 'reset',
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'paste-md',
+        path: '/:paste(.*)',
+        component: resolve(__dirname, 'pages/paste.vue'),
+      })
+      sortRoutes(routes)
+    },
+  },
+
+  render: {
+    fallback: false,
+  },
+
+  markdownit: {
+    preset: 'default',
+    html: true,
+    injected: true,
+    linkify: true,
+    breaks: false,
+    typographer: true,
+    use: ['markdown-it-div', 'markdown-it-highlightjs'],
   },
 }
