@@ -190,6 +190,20 @@ hr {
   margin-bottom: 16px;
 }
 
+.header-anchor {
+  display: none;
+  font-size: 0.8em;
+}
+
+h1:hover .header-anchor,
+h2:hover .header-anchor,
+h3:hover .header-anchor,
+h4:hover .header-anchor,
+h5:hover .header-anchor,
+h6:hover .header-anchor {
+  display: inline;
+}
+
 h1,
 h2 {
   padding-bottom: 0.3em;
