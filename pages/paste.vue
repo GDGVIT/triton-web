@@ -176,6 +176,15 @@ hr {
     monospace;
 }
 
+.markdown p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown blockquote > :last-child {
+  margin-bottom: 0;
+}
+
 h1,
 h2 {
   padding-bottom: 0.3em;
