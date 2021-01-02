@@ -16,6 +16,7 @@
     "@nuxtjs/pwa": "^3.3.2",
     "core-js": "^3.8.1",
     "markdown-it-div": "^1.1.0",
+    "markdown-it-emoji": "^2.0.0",
     "markdown-it-highlightjs": "^3.4.0",
     "nuxt": "^2.14.12",
     "nuxt-highlightjs": "^1.0.1"

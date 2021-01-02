@@ -92,6 +92,6 @@ export default {
     linkify: true,
     breaks: false,
     typographer: true,
-    use: ['markdown-it-div', 'markdown-it-highlightjs'],
+    use: ['markdown-it-div', 'markdown-it-highlightjs', 'markdown-it-emoji'],
   },
 }

@@ -103,8 +103,8 @@ img {
   vertical-align: middle;
 }
 
-blockquote {
-  padding: 10px 20px;
+.markdown blockquote {
+  padding: 0 1em;
   margin: 0 0 20px;
   font-size: 17.5px;
   border-left: 4px solid #8b949e;
@@ -176,13 +176,18 @@ hr {
     monospace;
 }
 
-.markdown p {
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-
 .markdown blockquote > :last-child {
   margin-bottom: 0;
+}
+
+.markdown blockquote,
+.markdown p,
+.markdown ol,
+.markdown pre,
+.markdown table,
+.markdown ul {
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
 h1,
