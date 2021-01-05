@@ -1,4 +1,3 @@
-/* eslint-disable vue/no-v-html */ /* eslint-disable no-console */
 <template>
   <div class="flex flex-col h-screen">
     <Navbar />
