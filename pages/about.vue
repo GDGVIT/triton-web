@@ -34,6 +34,23 @@
         automatically transferred to your account.
       </p>
       <br />
+      <h1 class="text-title sm:pr-64">Markdown support</h1>
+      <p class="text-body sm:pr-64">
+        We support markdown documents formatting in the CommonMark spec. Append
+        ".md" to the end of the url to render any paste as markdown.
+      </p>
+      <br />
+      <h1 class="text-title sm:pr-64">Analytics</h1>
+      <p class="text-body sm:pr-64">
+        We support per-page analytics using a privacy-friendly analytics
+        provider,
+        <a
+          class="underline text-amber cursor-pointer"
+          href="https://simpleanalytics.com"
+          >Simple Analytics</a
+        >
+      </p>
+      <br />
       <h1 class="text-title sm:pr-64">Document lifetime</h1>
       <p class="text-body sm:pr-64">
         There is no explicit expiration time for documents on katbin. Documents
@@ -45,7 +62,7 @@
         katbin is fully open source and built on open source technology. All
         sources can be found on
         <a
-          class="underline hover:text-amber cursor-pointer"
+          class="underline text-amber cursor-pointer"
           href="https://github.com/SphericalKat"
           >GitHub</a
         >. You can easily deploy it yourself wherever you want.
@@ -55,7 +72,7 @@
       <p class="text-body sm:pr-64">
         You can contact sphericalkat
         <a
-          class="underline hover:text-amber cursor-pointer"
+          class="underline text-amber cursor-pointer"
           href="https://t.me/sphericalkat"
           >here</a
         >.
