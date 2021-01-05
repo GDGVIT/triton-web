@@ -11,11 +11,11 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.12.4",
+    "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/markdownit": "^1.2.10",
-    "@nuxtjs/pwa": "^3.3.2",
-    "core-js": "^3.8.1",
-    "markdown-it-anchor": "^6.0.1",
+    "@nuxtjs/pwa": "^3.3.3",
+    "core-js": "^3.8.2",
+    "markdown-it-anchor": "^7.0.0",
     "markdown-it-div": "^1.1.0",
     "markdown-it-emoji": "^2.0.0",
     "markdown-it-highlightjs": "^3.4.0",
@@ -27,12 +27,12 @@
     "@cloudflare/wrangler": "^1.12.3",
     "@nuxtjs/eslint-config": "^5.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/tailwindcss": "^3.4.1",
+    "@nuxtjs/tailwindcss": "^3.4.2",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.15.0",
-    "eslint-config-prettier": "^7.0.0",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "prettier": "^2.2.1"
   }
 }
