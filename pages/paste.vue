@@ -10,7 +10,7 @@
     ></code>
     <div
       v-else-if="isMarkdown"
-      class="text-white sm:w-3/4 sm:m-auto markdown w-full link-color"
+      class="text-white sm:w-3/4 sm:m-auto markdown h-full overflow-auto w-full link-color"
       v-html="$md.render($store.state.pastes.content.content)"
     ></div>
     <textarea
