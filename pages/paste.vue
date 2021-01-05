@@ -34,16 +34,22 @@ export default {
   async fetch() {
     const { params, $axios, redirect, store } = this.$nuxt.context
     const paste = params.paste
-    const extension = paste.split('.')
-    this.isMarkdown = extension[1] === 'md'
+    const prelude = params.paste.split('/')
+    let extension = paste
+    if (prelude) {
+      if (prelude[1]) {
+        extension = prelude[1].split('.')
+        this.isMarkdown = extension[1] === 'md'
+      }
+    }
 
     try {
       const pasteContent = await $axios.$get(
-        `https://api.katb.in/api/paste/${extension[0]}`,
+        `https://api.katb.in/api/paste/${extension}`,
         { withCredentials: true }
       )
 
-      if (pasteContent.is_url) {
+      if (pasteContent.is_url && prelude[0] !== 'v') {
         redirect(pasteContent.content)
       }
 
