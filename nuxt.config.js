@@ -22,7 +22,10 @@ export default {
   css: [{ src: '~/node_modules/highlight.js/styles/dracula.css', lang: 'css' }],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['~/plugins/clipboard.js'],
+  plugins: [
+    '~/plugins/clipboard.js',
+    { src: '~/plugins/simple-analytics.js', ssr: false },
+  ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
