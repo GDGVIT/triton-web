@@ -39,6 +39,12 @@
       <a href="https://sphericalkat.dev"
         ><span>© {{ new Date().getFullYear() }} SphericalKat</span></a
       >
+      <a
+        v-if="slug != ''"
+        :href="`https://simpleanalytics.com/katb.in/${slug}`"
+      >
+        Simple analytics
+      </a>
     </div>
   </div>
 </template>
@@ -48,6 +54,12 @@ import { copyToClipboard } from '~/plugins/clipboard'
 
 export default {
   name: 'CustomFooter',
+  props: {
+    slug: {
+      type: String,
+      default: '',
+    },
+  },
   methods: {
     handleCopy() {
       copyToClipboard(this.$store)

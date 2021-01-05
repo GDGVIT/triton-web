@@ -19,7 +19,7 @@
       spellcheck="false"
       class="h-full px-6 py-4 outline-none"
     ></textarea>
-    <CustomFooter />
+    <CustomFooter :slug="slug" />
   </div>
 </template>
 
@@ -28,6 +28,7 @@ export default {
   data() {
     return {
       isMarkdown: false,
+      slug: '',
     }
   },
   async fetch() {
@@ -47,6 +48,7 @@ export default {
       }
 
       store.commit('pastes/setContent', pasteContent)
+      this.slug = paste
     } catch (err) {
       redirect('/')
     }
