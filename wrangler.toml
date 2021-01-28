@@ -6,5 +6,5 @@ bucket = "dist"
 entry-point = "workers-site"
 
 [env.production]
-name = "katbin-worker"
-route = "katb.in/*"
+name = "triton-worker"
+route = "dscv.it/*"

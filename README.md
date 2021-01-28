@@ -1,4 +1,5 @@
-# katbin-web
+# triton
+Frontend for DSCVIT's internal pastebin and url shortener.
 
 ## Build Setup
 

@@ -36,12 +36,12 @@
       class="flex px-4 py-1 text-xs sm:text-base justify-between text-amber"
       style="background: #1a1a1a; font-family: JetbrainsMono"
     >
-      <a href="https://sphericalkat.dev"
-        ><span>© {{ new Date().getFullYear() }} SphericalKat</span></a
+      <a href="https://dscvit.com"
+        ><span>© {{ new Date().getFullYear() }} DSC-VIT</span></a
       >
       <a
         v-if="slug != ''"
-        :href="`https://simpleanalytics.com/katb.in/${slug}`"
+        :href="`https://simpleanalytics.com/dscv.it/${slug}`"
       >
         Simple analytics
       </a>

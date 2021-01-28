@@ -47,7 +47,7 @@ export default {
 
     try {
       const pasteContent = await $axios.$get(
-        `https://api.katb.in/api/paste/${extension[0]}`,
+        `https://api.dscv.it/api/paste/${extension[0]}`,
         { withCredentials: true }
       )
 

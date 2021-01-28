@@ -5,7 +5,7 @@
     <div class="flex items-center flex-no-shrink text-white mr-6">
       <nuxt-link to="/">
         <span class="font-semibold text-xl tracking-tight"
-          ><span class="text-amber">&lt;Kat</span>bin/&gt;</span
+          ><span class="text-amber">&lt;DSC</span>VIT/&gt;</span
         >
       </nuxt-link>
     </div>
@@ -192,7 +192,7 @@ export default {
           const {
             id,
           } = await this.$axios.$patch(
-            'https://api.katb.in/api/paste',
+            'https://api.dscv.it/api/paste',
             this.$store.state.pastes.content,
             { withCredentials: true }
           )
@@ -210,7 +210,7 @@ export default {
           const content = this.$store.state.inputs.textInput
           const isUrl = validURL(content)
           const { paste_id: pasteId } = await this.$axios.$post(
-            'https://api.katb.in/api/paste',
+            'https://api.dscv.it/api/paste',
             { is_url: isUrl, content },
             { withCredentials: true }
           )

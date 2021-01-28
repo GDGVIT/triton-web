@@ -3,7 +3,7 @@
     <Navbar is-about />
     <div class="p-4 h-full">
       <h1 class="text-title sm:pr-64">
-        katbin - the cutest pastebin and URL shortener ever!
+        triton - DSCVIT's pastebin and URL shortener
       </h1>
       <p class="text-body sm:pr-64">
         Sharing short code samples, logs or links is now easier than ever!
@@ -11,7 +11,7 @@
       <br />
       <h1 class="text-title sm:pr-64">Basics</h1>
       <p class="text-body sm:pr-64">
-        The easiest way to use katbin, is from inside your browser. Type or
+        The easiest way to use triton, is from inside your browser. Type or
         paste your content into the text area on the homepage, save it, and copy
         the link. You can now share this link with whoever you want.
       </p>
@@ -53,29 +53,19 @@
       <br />
       <h1 class="text-title sm:pr-64">Document lifetime</h1>
       <p class="text-body sm:pr-64">
-        There is no explicit expiration time for documents on katbin. Documents
+        There is no explicit expiration time for documents on triton. Documents
         may however be removed at any time without notice.
       </p>
       <br />
       <h1 class="text-title sm:pr-64">Open source</h1>
       <p class="text-body sm:pr-64">
-        katbin is fully open source and built on open source technology. All
+        triton is fully open source and built on open source technology. All
         sources can be found on
         <a
           class="underline text-amber cursor-pointer"
-          href="https://github.com/SphericalKat"
+          href="https://github.com/GDGVIT"
           >GitHub</a
         >. You can easily deploy it yourself wherever you want.
-      </p>
-      <br />
-      <h1 class="text-title sm:pr-64">Contact</h1>
-      <p class="text-body sm:pr-64">
-        You can contact sphericalkat
-        <a
-          class="underline text-amber cursor-pointer"
-          href="https://t.me/sphericalkat"
-          >here</a
-        >.
       </p>
     </div>
   </div>

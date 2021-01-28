@@ -3,5 +3,5 @@ import Vue from 'vue'
 
 Vue.use(SimpleAnalytics, {
   skip: process.env.NODE_ENV !== 'production',
-  domain: 'sa.katb.in',
+  domain: 'sa.dscv.it',
 })
