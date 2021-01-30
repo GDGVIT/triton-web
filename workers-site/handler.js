@@ -40,7 +40,7 @@ async function getPageFromKV(event) {
 
 async function redirectGitHub(event) {
   const urlParts = event.request.url.replace(BASE_URL, '').split('/')
-  switch (urlParts[0]) {
+  switch (urlParts[0].toLowerCase()) {
     case 'g':
       switch (urlParts.length) {
         case 1:
@@ -58,6 +58,9 @@ async function redirectGitHub(event) {
             301
           )
       }
+      break
+    case 'afterhours':
+      return Response.redirect('https://afterhours.dscvit.com', 301)
     default:
       return getPageFromKV(event)
   }
