@@ -8,3 +8,4 @@ entry-point = "workers-site"
 [env.production]
 name = "triton-worker"
 route = "dscv.it/*"
+vars = { BASE_URL = "https://dscv.it/" }
