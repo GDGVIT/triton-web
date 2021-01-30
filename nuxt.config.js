@@ -5,14 +5,14 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Katbin',
+    title: 'DSCVIT',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'The cutest pastebin and URL shortener ever!',
+        content: "DSCVIT's pastebin and URL shortener",
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -61,9 +61,9 @@ export default {
 
   pwa: {
     manifest: {
-      name: 'Katbin',
+      name: 'DSCVIT',
       lang: 'en',
-      description: 'The cutest pastebin and URL shortener ever!',
+      description: "DSCVIT's pastebin and URL shortener",
     },
   },
 
