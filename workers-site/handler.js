@@ -61,6 +61,13 @@ async function redirectGitHub(event) {
       break
     case 'afterhours':
       return Response.redirect('https://afterhours.dscvit.com', 301)
+
+    case 'solchal':
+    case 'solutionchallengeinfo':
+      return Response.redirect(
+        'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-solution-challenge-info-session/#/',
+        301
+      )
     default:
       return getPageFromKV(event)
   }
