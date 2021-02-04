@@ -33,7 +33,7 @@ async function getPageFromKV(event) {
         ...notFoundResponse,
         status: 404,
       })
-    } catch (e) {}
+    } catch (e) { }
     return new Response(e.message || e.toString(), { status: 500 })
   }
 }
@@ -68,6 +68,17 @@ async function redirectGitHub(event) {
         'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-solution-challenge-info-session/#/',
         301
       )
+    case 'community':
+      return Response.redirect(
+        'https://dsc.community.dev/vellore-institute-of-technology/',
+        301
+      )
+    case 'twitter':
+      return Response.redirect('https://twitter.com/dscvit', 301)
+    case 'linkedin':
+      return Response.redirect('https://www.linkedin.com/company/dscvit', 301)
+    case 'insta':
+      return Response.redirect('https://www.instagram.com/dscvitvellore', 301)
     default:
       return getPageFromKV(event)
   }
