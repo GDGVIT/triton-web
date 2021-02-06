@@ -3,7 +3,7 @@
     <Navbar is-about />
     <div class="p-4 h-full">
       <h1 class="text-title sm:pr-64">
-        triton - DSCVIT's pastebin and URL shortener
+        Triton - DSC VIT's pastebin and URL shortener
       </h1>
       <p class="text-body sm:pr-64">
         Sharing short code samples, logs or links is now easier than ever!
@@ -63,7 +63,7 @@
         sources can be found on
         <a
           class="underline text-amber cursor-pointer"
-          href="https://github.com/GDGVIT"
+          href="https://github.com/GDGVIT/triton-web"
           >GitHub</a
         >. You can easily deploy it yourself wherever you want.
       </p>

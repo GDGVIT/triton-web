@@ -5,7 +5,7 @@
     <div class="flex items-center flex-no-shrink text-white mr-6">
       <nuxt-link to="/">
         <span class="font-semibold text-xl tracking-tight"
-          ><span class="text-amber">&lt;DSC</span>VIT/&gt;</span
+          ><span class="text-amber">&lt;</span>&gt;</span
         >
       </nuxt-link>
     </div>
@@ -179,7 +179,7 @@ export default {
     },
 
     doCopy(e) {
-      if (!(e.keyCode === 67 && e.ctrlKey)) {
+      if (!(e.keyCode === 67 && e.altKey)) {
         return
       }
       e.preventDefault()
