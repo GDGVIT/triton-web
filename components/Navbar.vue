@@ -179,7 +179,7 @@ export default {
     },
 
     doCopy(e) {
-      if (!(e.keyCode === 67 && e.ctrlKey)) {
+      if (!(e.keyCode === 67 && e.altKey)) {
         return
       }
       e.preventDefault()
