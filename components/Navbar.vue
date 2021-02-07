@@ -9,7 +9,7 @@
         >
       </nuxt-link>
     </div>
-    <div class="flex sm:hidden">
+    <div class="flex sm:hidden items-center">
       <svg
         v-if="
           !$store.state.pastes.isEdit &&
