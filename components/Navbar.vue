@@ -9,7 +9,7 @@
         >
       </nuxt-link>
     </div>
-    <div class="flex sm:hidden">
+    <div class="flex sm:hidden items-center">
       <svg
         v-if="
           !$store.state.pastes.isEdit &&
@@ -18,7 +18,7 @@
         "
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
-        class="h-8 w-8 cursor-pointer ml-4 fill-current text-white hover:text-amber"
+        class="h-8 w-8 cursor-pointer mr-4 fill-current text-white hover:text-amber"
         viewBox="0 0 208 128"
         @click="handleMD"
       >
@@ -36,6 +36,7 @@
           d="M30 98V30h20l20 25 20-25h20v68H90V59L70 84 50 59v39zm125 0l-30-33h20V30h20v35h20z"
         />
       </svg>
+
       <svg
         v-if="
           this.$store.state.pastes.content.is_owner &&
