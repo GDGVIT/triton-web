@@ -9,7 +9,7 @@
         >
       </nuxt-link>
     </div>
-    <div class="flex sm:hidden">
+    <div class="flex">
       <svg
         v-if="
           this.$store.state.pastes.content.is_owner &&
@@ -215,7 +215,11 @@ export default {
     },
 
     handleMD() {
-      window.location.href += ".md";
+      var currURL = window.location.href
+      if (currURL.slice(-3) === '.md') {
+        return
+      }
+      window.location.href += '.md'
     },
 
     async handleSave() {
