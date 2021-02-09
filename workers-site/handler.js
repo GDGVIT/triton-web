@@ -79,6 +79,8 @@ async function redirectGitHub(event) {
       return Response.redirect('https://www.linkedin.com/company/dscvit', 301)
     case 'insta':
       return Response.redirect('https://www.instagram.com/dscvitvellore', 301)
+    case 'wt21':
+      return Response.redirect('https://womentechies.dscvit.com/', 301)
     default:
       return getPageFromKV(event)
   }
