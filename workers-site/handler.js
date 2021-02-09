@@ -81,6 +81,8 @@ async function redirectGitHub(event) {
       return Response.redirect('https://www.instagram.com/dscvitvellore', 301)
     case 'wt21':
       return Response.redirect('https://womentechies.dscvit.com/', 301)
+    case 'youtube':
+      return Response.redirect('https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg',301)
     default:
       return getPageFromKV(event)
   }
