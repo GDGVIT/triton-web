@@ -85,6 +85,9 @@ async function redirectGitHub(event) {
       return Response.redirect('https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg',301)
     case 'wtdiscord':
       return Response.redirect('https://discord.gg/aWuNESPhNf',301)
+    case 'vit-curriculum':
+    case 'vitcourses':
+      return Response.redirect('https://drive.google.com/file/d/1KUBodSJGrW1JaObGYJVENxfTvbvpPZOk/view?usp=sharing',301)
     default:
       return getPageFromKV(event)
   }
