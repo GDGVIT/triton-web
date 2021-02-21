@@ -40,7 +40,10 @@ async function getPageFromKV(event) {
 }
 
 async function redirectGitHub(event) {
-  const urlParts = event.request.url.replace(BASE_URL, '').split('/')
+  const urlParts = event.request.url
+    .replace(BASE_URL, '')
+    .split('/')
+    .map((s) => s.toLowerCase())
   if (redirect[urlParts[0]]) {
     return Response.redirect(redirect[urlParts[0]], 301)
   }
