@@ -12,6 +12,6 @@ export const redirect = {
   vitcourses:
     'https://drive.google.com/file/d/1KUBodSJGrW1JaObGYJVENxfTvbvpPZOk/view?usp=sharing',
   wt21: 'https://womentechies.dscvit.com/',
-  wtdiscord: 'https://discord.gg/aWuNESPhNf',
+  wtdiscord: 'https://discord.gg/t9emnt5v27',
   youtube: 'https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg',
 }
