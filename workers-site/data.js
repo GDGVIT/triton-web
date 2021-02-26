@@ -14,4 +14,5 @@ export const redirect = {
   wt21: 'https://womentechies.dscvit.com/',
   wtdiscord: 'https://discord.gg/DjettTfnTz',
   youtube: 'https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg',
+  resources: 'https://resources.dscvit.com' ,
 }
