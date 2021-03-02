@@ -11,7 +11,7 @@ export const redirect = {
   twitter: 'https://twitter.com/dscvit',
   vitcourses:
     'https://drive.google.com/file/d/1KUBodSJGrW1JaObGYJVENxfTvbvpPZOk/view?usp=sharing',
-  wt21: 'https://womentechies21.hackerearth.com/',
+  wt21: 'https://womentechies.dscvit.com/',
   wtdiscord: 'https://discord.gg/DjettTfnTz',
   youtube: 'https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg',
   resources: 'https://resources.dscvit.com' ,
