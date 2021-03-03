@@ -12,7 +12,7 @@ export const redirect = {
   vitcourses:
     'https://drive.google.com/file/d/1KUBodSJGrW1JaObGYJVENxfTvbvpPZOk/view?usp=sharing',
   wt21: 'https://womentechies.dscvit.com/',
-  wtdiscord: 'https://discord.gg/DjettTfnTz',
+  wtdiscord: 'https://discord.gg/PvkaBF7yp4',
   youtube: 'https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg',
   resources: 'https://resources.dscvit.com' ,
   'vit-curriculum':'https://drive.google.com/file/d/1KUBodSJGrW1JaObGYJVENxfTvbvpPZOk/view?usp=sharing'
