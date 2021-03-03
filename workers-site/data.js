@@ -15,4 +15,5 @@ export const redirect = {
   wtdiscord: 'https://discord.gg/DjettTfnTz',
   youtube: 'https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg',
   resources: 'https://resources.dscvit.com' ,
+  'vit-curriculum':'https://drive.google.com/file/d/1KUBodSJGrW1JaObGYJVENxfTvbvpPZOk/view?usp=sharing'
 }
