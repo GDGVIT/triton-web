@@ -16,5 +16,7 @@ export const redirect = {
   youtube: 'https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg',
   resources: 'https://resources.dscvit.com' ,
   'vit-curriculum':'https://drive.google.com/file/d/1KUBodSJGrW1JaObGYJVENxfTvbvpPZOk/view?usp=sharing',
-  'wt21-policy': 'https://dscv.it/scem23.md'
+  'wt21-policy': 'https://dscv.it/scem23.md',
+  wtandroid:'https://play.google.com/store/apps/details?id=com.dscvit.wt21',
+  wtios:'https://apps.apple.com/in/app/womentechies-2021/id1556003243#?platform=iphone'
 }
