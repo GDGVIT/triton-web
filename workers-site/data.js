@@ -21,4 +21,5 @@ export const redirect = {
   wtios:'https://apps.apple.com/in/app/womentechies-2021/id1556003243#?platform=iphone',
   amwt21: 'https://www.airmeet.com/e/6ad03460-83d3-11eb-86eb-b798d27772c4',
   wtcheckin: 'https://vithack2020.typeform.com/to/KxDhQ3qP',
+  wt21checkin: 'https://vithack2020.typeform.com/to/KxDhQ3qP',
 }
