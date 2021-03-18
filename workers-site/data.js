@@ -22,5 +22,5 @@ export const redirect = {
   amwt21: 'https://www.airmeet.com/e/6ad03460-83d3-11eb-86eb-b798d27772c4',
   wtcheckin: 'https://vithack2020.typeform.com/to/KxDhQ3qP',
   wt21checkin: 'https://vithack2020.typeform.com/to/KxDhQ3qP',
-  dscdiscord: 'https://discord.gg/PRthCQdX',
+  techdiscord: 'https://discord.gg/PRthCQdX',
 }
