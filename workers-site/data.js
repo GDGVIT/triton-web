@@ -24,4 +24,5 @@ export const redirect = {
   wt21checkin: 'https://vithack2020.typeform.com/to/KxDhQ3qP',
   discord: 'https://discord.gg/PRthCQdX',
   firebase:'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-introduction-to-firebase/#/',
+  gsoc: 'https://go.vitspot.com/mq9', 
 }
