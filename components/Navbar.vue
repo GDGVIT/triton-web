@@ -128,7 +128,7 @@
           "
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
-          class="h-8 w-8 cursor-pointer ml-4 fill-current text-white hover:text-amber"
+          class="h-8 w-8 cursor-pointer ml-4 fill-current border-white text-white hover:text-amber"
           viewBox="0 0 208 128"
           @click="handleMD"
         >
@@ -138,7 +138,7 @@
             x="5"
             y="5"
             ry="10"
-            stroke="#000"
+            stroke="#1A1A1A"
             stroke-width="10"
             fill="none"
           />
@@ -242,6 +242,7 @@ export default {
     handleMD() {
       var currURL = window.location.href
       if (currURL.slice(-3) === '.md') {
+        window.location.href = window.location.href.split(".md")[0]
         return
       }
       window.location.href += '.md'
