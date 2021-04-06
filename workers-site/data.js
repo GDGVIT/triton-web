@@ -25,5 +25,6 @@ export const redirect = {
   discord: 'https://discord.gg/PRthCQdX',
   firebase:'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-introduction-to-firebase/#/',
   gsoc: 'https://go.vitspot.com/mq9',
-  ep6reg: 'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-google-summer-of-code-experience-and-tips-dsc-afterhours/'
+  ep6reg: 'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-google-summer-of-code-experience-and-tips-dsc-afterhours/',
+  'org-monster':'https://chrome.google.com/webstore/detail/org-monster/egilbonoajnapajkbihnalficajlomcn',
 }
