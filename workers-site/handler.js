@@ -27,8 +27,7 @@ async function getPageFromKV(event) {
   } catch (e) {
     try {
       const notFoundResponse = await getAssetFromKV(event, {
-        mapRequestToAsset: (req) =>
-          new Request(`${new URL(req.url).origin}/404.html`, req),
+        mapRequestToAsset: (req) => new Request(`${new URL(req.url).origin}/404.html`, req),
       })
       return new Response(notFoundResponse.body, {
         ...notFoundResponse,
@@ -41,6 +40,7 @@ async function getPageFromKV(event) {
 
 async function redirectGitHub(event) {
   const urlParts = event.request.url
+    .split('?')[0]
     .replace(BASE_URL, '')
     .split('/')
     .map((s) => s.toLowerCase())
@@ -54,15 +54,9 @@ async function redirectGitHub(event) {
       case 2:
         return Response.redirect(`${GITHUB_URL}/${urlParts[1]}`, 301)
       case 3:
-        return Response.redirect(
-          `${GITHUB_URL}/${urlParts[1]}/commit/${urlParts[2]}`,
-          301
-        )
+        return Response.redirect(`${GITHUB_URL}/${urlParts[1]}/commit/${urlParts[2]}`, 301)
       case 4:
-        return Response.redirect(
-          `${GITHUB_URL}/${urlParts[1]}/issues/${urlParts[3]}`,
-          301
-        )
+        return Response.redirect(`${GITHUB_URL}/${urlParts[1]}/issues/${urlParts[3]}`, 301)
     }
   }
   //prevent existing url from breaking
