@@ -19,4 +19,5 @@ export const redirect = {
     'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-google-summer-of-code-experience-and-tips-dsc-afterhours/',
   'org-monster': 'https://chrome.google.com/webstore/detail/org-monster/egilbonoajnapajkbihnalficajlomcn',
   python: 'https://dsc.community.dev/e/m8dpk3/',
+  devcamp2: 'https://dsc.community.dev/e/m4ht92/'
 }
