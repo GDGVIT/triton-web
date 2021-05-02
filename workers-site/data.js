@@ -10,5 +10,6 @@ export const redirect = {
   resources: 'https://resources.dscvit.com',
   discord: 'https://discord.gg/4VqH3RJQXG',
   'org-monster': 'https://chrome.google.com/webstore/detail/org-monster/egilbonoajnapajkbihnalficajlomcn',
-  camp2: 'https://dsc.community.dev/e/m4ht92/'
+  camp2: 'https://dsc.community.dev/e/m4ht92/',
+  minimalism: 'https://medium.com/@aroranamya5/dial-down-the-minimalism-77f8dc0d9641'
 }
