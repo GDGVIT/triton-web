@@ -11,5 +11,6 @@ export const redirect = {
   discord: 'https://discord.gg/4VqH3RJQXG',
   'org-monster': 'https://chrome.google.com/webstore/detail/org-monster/egilbonoajnapajkbihnalficajlomcn',
   camp2: 'https://dsc.community.dev/e/m4ht92/',
-  minimalism: 'https://medium.com/@aroranamya5/dial-down-the-minimalism-77f8dc0d9641'
+  minimalism: 'https://medium.com/@aroranamya5/dial-down-the-minimalism-77f8dc0d9641',
+  camp3: 'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-git-going-with-github-devcamp/',
 }
