@@ -14,4 +14,5 @@ export const redirect = {
   minimalism: 'https://medium.com/@aroranamya5/dial-down-the-minimalism-77f8dc0d9641',
   camp3: 'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-git-going-with-github-devcamp/',
   blogonlinecollege:'https://medium.com/gdg-vit/pandemic-online-classes-everything-else-5a483d1423e5?source=friends_link&sk=877ec26afabaab4dde97444f9bec6f5c',
+  camp4:'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-jetset-javascript-devcamp/',
 }
