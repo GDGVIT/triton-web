@@ -15,6 +15,6 @@ export const redirect = {
   camp3: 'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-git-going-with-github-devcamp/',
   blogonlinecollege:'https://medium.com/gdg-vit/pandemic-online-classes-everything-else-5a483d1423e5?source=friends_link&sk=877ec26afabaab4dde97444f9bec6f5c',
   camp4:'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-jetset-javascript-devcamp/',
-  FlutterDay2020:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4sL1lurgBvJZUMxxi6_gRcQ',
-  NodeYT:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4tVZcWZvdqw44XbIjBNXn0p',
+  flutterday2020:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4sL1lurgBvJZUMxxi6_gRcQ',
+  nodeyt:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4tVZcWZvdqw44XbIjBNXn0p',
 }
