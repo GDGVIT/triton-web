@@ -17,5 +17,5 @@ export const redirect = {
   camp4:'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-jetset-javascript-devcamp/',
   flutterday2020:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4sL1lurgBvJZUMxxi6_gRcQ',
   nodeyt:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4tVZcWZvdqw44XbIjBNXn0p',
-  androidstudy:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4ufZkSeSUP5qv7j21lyY_sQ',
+  asj:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4ufZkSeSUP5qv7j21lyY_sQ',
 }
