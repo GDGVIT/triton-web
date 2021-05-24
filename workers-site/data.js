@@ -19,4 +19,5 @@ export const redirect = {
   nodeyt:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4tVZcWZvdqw44XbIjBNXn0p',
   androidstudy:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4ufZkSeSUP5qv7j21lyY_sQ',
   mlrandomnessblog:'https://medium.com/gdg-vit/understanding-the-role-of-randomness-in-machine-learning-4a19632f41c4?source=friends_link&sk=4714e51d2e4c1b060d8e593c9b4c2a8f',
+  camp5:'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-build-with-react-devcamp/',
 }
