@@ -21,4 +21,5 @@ export const redirect = {
   mlrandomnessblog:'https://medium.com/gdg-vit/understanding-the-role-of-randomness-in-machine-learning-4a19632f41c4?source=friends_link&sk=4714e51d2e4c1b060d8e593c9b4c2a8f',
   camp5:'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-build-with-react-devcamp/',
   getstartedblog:'https://medium.com/gdg-vit/5-tips-to-get-you-started-developeredition-bccfc2adf9ff?source=friends_link&sk=7cb75db17e668baaced0c1815b643bdd',
+  uefa:'https://www.uefa.com/uefaeuro-2020/news/0254-0d41684d1216-06773df7faed-1000--euro-2020-all-the-fixtures/',
 }
