@@ -23,4 +23,5 @@ export const redirect = {
   getstartedblog:'https://medium.com/gdg-vit/5-tips-to-get-you-started-developeredition-bccfc2adf9ff?source=friends_link&sk=7cb75db17e668baaced0c1815b643bdd',
   uefa:'https://www.uefa.com/uefaeuro-2020/news/0254-0d41684d1216-06773df7faed-1000--euro-2020-all-the-fixtures/',
   notebooksmaster: 'https://medium.com/gdg-vit/my-kaggle-journey-from-novice-to-notebooks-masters-92bb4dc51a89',
+  gidget: 'https://play.google.com/store/apps/details?id=com.dscvit.gidget',
 }
