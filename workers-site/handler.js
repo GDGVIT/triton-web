@@ -6,6 +6,10 @@ const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`
 const PERMISSIONS_POLICY =
   'accelerometer=(), autoplay=(), camera=(), encrypted-media=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), sync-xhr=(), usb=()'
 
+function playstoreLink(name) {
+  return `https://play.google.com/store/apps/details?id=com.dscvit.${name}`
+}
+
 export async function handleRequest(event) {
   return redirectGitHub(event)
 }
@@ -59,12 +63,10 @@ async function redirectGitHub(event) {
         return Response.redirect(`${GITHUB_URL}/${urlParts[1]}/issues/${urlParts[3]}`, 301)
     }
   }
-  //prevent existing url from breaking
-  if (urlParts[0] == 'vit-curriculum') {
-    Response.redirect(
-      'https://drive.google.com/file/d/1KUBodSJGrW1JaObGYJVENxfTvbvpPZOk/view?usp=sharing',
-      301
-    )
+  // only works for android apps.
+  // cannot handle ios apps right now.
+  if (urlParts[0] == 'app') {
+    return Response.redirect(playstoreLink(urlParts[1]), 301)
   }
   return getPageFromKV(event)
 }

@@ -12,17 +12,24 @@ export const redirect = {
   'org-monster': 'https://chrome.google.com/webstore/detail/org-monster/egilbonoajnapajkbihnalficajlomcn',
   camp2: 'https://dsc.community.dev/e/m4ht92/',
   minimalism: 'https://medium.com/@aroranamya5/dial-down-the-minimalism-77f8dc0d9641',
-  camp3: 'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-git-going-with-github-devcamp/',
-  blogonlinecollege:'https://medium.com/gdg-vit/pandemic-online-classes-everything-else-5a483d1423e5?source=friends_link&sk=877ec26afabaab4dde97444f9bec6f5c',
-  camp4:'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-jetset-javascript-devcamp/',
-  flutterday2020:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4sL1lurgBvJZUMxxi6_gRcQ',
-  nodeyt:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4tVZcWZvdqw44XbIjBNXn0p',
-  androidstudy:'https://www.youtube.com/playlist?list=PLiI1-GFGRl4ufZkSeSUP5qv7j21lyY_sQ',
-  mlrandomnessblog:'https://medium.com/gdg-vit/understanding-the-role-of-randomness-in-machine-learning-4a19632f41c4?source=friends_link&sk=4714e51d2e4c1b060d8e593c9b4c2a8f',
-  camp5:'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-build-with-react-devcamp/',
-  getstartedblog:'https://medium.com/gdg-vit/5-tips-to-get-you-started-developeredition-bccfc2adf9ff?source=friends_link&sk=7cb75db17e668baaced0c1815b643bdd',
-  uefa:'https://www.uefa.com/uefaeuro-2020/news/0254-0d41684d1216-06773df7faed-1000--euro-2020-all-the-fixtures/',
-  notebooksmaster: 'https://medium.com/gdg-vit/my-kaggle-journey-from-novice-to-notebooks-masters-92bb4dc51a89',
-  gidget: 'https://play.google.com/store/apps/details?id=com.dscvit.gidget',
-  songifiedandcyanite:'https://medium.com/gdg-vit/songified-and-cyanite-1cdb187b4168?source=friends_link&sk=f8ea2324bdf0cde8f1194f3388ea4ce6',
+  camp3:
+    'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-git-going-with-github-devcamp/',
+  blogonlinecollege:
+    'https://medium.com/gdg-vit/pandemic-online-classes-everything-else-5a483d1423e5?source=friends_link&sk=877ec26afabaab4dde97444f9bec6f5c',
+  camp4:
+    'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-jetset-javascript-devcamp/',
+  flutterday2020: 'https://www.youtube.com/playlist?list=PLiI1-GFGRl4sL1lurgBvJZUMxxi6_gRcQ',
+  nodeyt: 'https://www.youtube.com/playlist?list=PLiI1-GFGRl4tVZcWZvdqw44XbIjBNXn0p',
+  androidstudy: 'https://www.youtube.com/playlist?list=PLiI1-GFGRl4ufZkSeSUP5qv7j21lyY_sQ',
+  mlrandomnessblog:
+    'https://medium.com/gdg-vit/understanding-the-role-of-randomness-in-machine-learning-4a19632f41c4?source=friends_link&sk=4714e51d2e4c1b060d8e593c9b4c2a8f',
+  camp5:
+    'https://dsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-build-with-react-devcamp/',
+  getstartedblog:
+    'https://medium.com/gdg-vit/5-tips-to-get-you-started-developeredition-bccfc2adf9ff?source=friends_link&sk=7cb75db17e668baaced0c1815b643bdd',
+  uefa: 'https://www.uefa.com/uefaeuro-2020/news/0254-0d41684d1216-06773df7faed-1000--euro-2020-all-the-fixtures/',
+  notebooksmaster:
+    'https://medium.com/gdg-vit/my-kaggle-journey-from-novice-to-notebooks-masters-92bb4dc51a89',
+  songifiedandcyanite:
+    'https://medium.com/gdg-vit/songified-and-cyanite-1cdb187b4168?source=friends_link&sk=f8ea2324bdf0cde8f1194f3388ea4ce6',
 }
