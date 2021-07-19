@@ -32,4 +32,10 @@ export const redirect = {
     'https://medium.com/gdg-vit/my-kaggle-journey-from-novice-to-notebooks-masters-92bb4dc51a89',
   songifiedandcyanite:
     'https://medium.com/gdg-vit/songified-and-cyanite-1cdb187b4168?source=friends_link&sk=f8ea2324bdf0cde8f1194f3388ea4ce6',
+  vitty-app:
+    'https://play.google.com/store/apps/details?id=com.dscvit.vitty',
+  vitty-extn:
+    'https://chrome.google.com/webstore/detail/vitty/eeohmkjefmpmddidkjadpifbfcplkifh',
+  vitty-extension:
+    'https://chrome.google.com/webstore/detail/vitty/eeohmkjefmpmddidkjadpifbfcplkifh',
 }
