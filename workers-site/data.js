@@ -37,4 +37,5 @@ export const redirect = {
     'https://play.google.com/store/apps/details?id=com.dscvit.vitty',
   'vitty-extension':
     'https://chrome.google.com/webstore/detail/vitty/eeohmkjefmpmddidkjadpifbfcplkifh',
+  ep6reg:'https://www.youtube.com/watch?v=RV_24cI6GJE&feature=youtu.be',
 }
