@@ -32,10 +32,11 @@ export const redirect = {
     'https://medium.com/gdg-vit/my-kaggle-journey-from-novice-to-notebooks-masters-92bb4dc51a89',
   songifiedandcyanite:
     'https://medium.com/gdg-vit/songified-and-cyanite-1cdb187b4168?source=friends_link&sk=f8ea2324bdf0cde8f1194f3388ea4ce6',
-  
   'vitty-app':
     'https://play.google.com/store/apps/details?id=com.dscvit.vitty',
   'vitty-extension':
     'https://chrome.google.com/webstore/detail/vitty/eeohmkjefmpmddidkjadpifbfcplkifh',
   ep6reg:'https://www.youtube.com/watch?v=RV_24cI6GJE&feature=youtu.be',
+  searchengine:'https://medium.com/gdg-vit/a-guide-to-understanding-search-engines-b83f12132722',
+  
 }
