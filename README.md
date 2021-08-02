@@ -16,7 +16,7 @@
 ## Functionalities
 - [x]  Paste data, save and share!
 - [x]  Paste a URL To shorten
-- [x]  Copy entire paste by pessing alt-c
+- [x]  Copy entire paste by pressing alt-c
 - [x]  Render Markdown (append `.md` at the end of URL)
 - [x]  Analytics (powered by Simple Analytics)
 
