@@ -1,6 +1,7 @@
 import { getAssetFromKV } from '@cloudflare/kv-asset-handler'
-import { data, redirect } from './data.js'
+import { data, mediumRedirect, redirect } from './data.js'
 
+const MEDIUM_URL = 'https://medium.com/gdg-vit/'
 const GITHUB_USERNAME = 'GDGVIT'
 const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`
 const PERMISSIONS_POLICY =
@@ -63,6 +64,16 @@ async function redirectGitHub(event) {
         return Response.redirect(`${GITHUB_URL}/${urlParts[1]}/issues/${urlParts[3]}`, 301)
     }
   }
+
+  if(urlParts[0] == 'm' && mediumRedirect[urlParts[1]]){
+      return Response.redirect(mediumRedirect[urlParts[1]],301)
+  }
+
+  // if the provided article name isn't valid then redirected to dscvit medium homepage
+  if(urlParts[0] == 'm'){
+    return Response.redirect(`${MEDIUM_URL}`,301)
+  }
+
   // only works for android apps.
   // cannot handle ios apps right now.
   if (urlParts[0] == 'app') {
