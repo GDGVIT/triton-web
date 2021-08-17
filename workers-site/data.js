@@ -42,4 +42,5 @@ export const redirect = {
   notifierblog:'https://medium.com/gdg-vit/notifier-bot-be892baaf445?source=friends_link&sk=57c01e86a29f3d79c29d3ffaeb883c44',
   backendblog:'https://medium.com/gdg-vit/which-backend-stack-should-you-learn-e4935dfe81bd?source=friends_link&sk=166633a73e76a8e7328420d594f1c798',
   tensorflowblog:'https://medium.com/gdg-vit/my-journey-of-becoming-a-tensorflow-certified-developer-9ba6134807b5?source=friends_link&sk=8dfe2284188ae7ab62cc5142eaf2a631',
+  camp6: 'https://gdsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-workshop-on-advanced-react/',
 }
