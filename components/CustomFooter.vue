@@ -37,7 +37,7 @@
       style="background: #1a1a1a; font-family: JetbrainsMono"
     >
       <a href="https://dscvit.com"
-        ><span>© {{ new Date().getFullYear() }} DSC-VIT</span></a
+        ><span>© {{ new Date().getFullYear() }} GDSC-VIT</span></a
       >
       <a
         v-if="slug != ''"
