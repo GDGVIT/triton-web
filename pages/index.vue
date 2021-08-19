@@ -5,7 +5,7 @@
       v-model="textInput"
       spellcheck="false"
       class="h-full px-6 py-4 outline-none"
-      placeholder="> DSC VIT's Pastebin and URL Shortener. Paste, save and share!"
+      placeholder="> GDSC VIT's Pastebin and URL Shortener. Paste, save and share!"
     ></textarea>
     <CustomFooter />
   </div>

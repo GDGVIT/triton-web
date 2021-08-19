@@ -3,7 +3,7 @@
     <Navbar is-about />
     <div class="p-4 h-full">
       <h1 class="text-title sm:pr-64">
-        Triton - DSC VIT's pastebin and URL shortener
+        Triton - GDSC VIT's pastebin and URL shortener
       </h1>
       <p class="text-body sm:pr-64">
         Sharing short code samples, logs or links is now easier than ever!
@@ -59,7 +59,7 @@
       <br />
       <h1 class="text-title sm:pr-64">Open source</h1>
       <p class="text-body sm:pr-64">
-        triton is fully open source and built on open source technology. All
+        Triton is fully open source and built on open source technology. All
         sources can be found on
         <a
           class="underline text-amber cursor-pointer"
