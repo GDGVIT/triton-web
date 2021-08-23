@@ -44,4 +44,5 @@ export const redirect = {
   tensorflowblog:'https://medium.com/gdg-vit/my-journey-of-becoming-a-tensorflow-certified-developer-9ba6134807b5?source=friends_link&sk=8dfe2284188ae7ab62cc5142eaf2a631',
   camp6: 'https://gdsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-presents-workshop-on-advanced-react/',
   hackjudgeblog:'https://medium.com/gdg-vit/hackjudge-from-inception-to-application-af92c0221f04?source=friends_link&sk=df3f0f46ce03ecc9e00be7239aeabd85',
+  camp7:'https://gdsc.community.dev/e/mn2qht/',
 }
