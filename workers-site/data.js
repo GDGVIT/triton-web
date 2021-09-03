@@ -46,4 +46,5 @@ export const redirect = {
   hackjudgeblog:'https://medium.com/gdg-vit/hackjudge-from-inception-to-application-af92c0221f04?source=friends_link&sk=df3f0f46ce03ecc9e00be7239aeabd85',
   camp7:'https://gdsc.community.dev/e/mn2qht/',
   camp8:'https://gdsc.community.dev/e/mz6uzv/',
+  pipoblog:'https://medium.com/gdg-vit/pipo-the-journey-from-ideation-to-creation-78e91e1e892d?source=friends_link&sk=ee4abd91c78841c87418ea39014c7ee6',
 }
