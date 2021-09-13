@@ -9,6 +9,7 @@ export const redirect = {
   youtube: 'https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg',
   resources: 'https://resources.dscvit.com',
   discord: 'https://discord.gg/4VqH3RJQXG',
+  telegram:'https://t.me/joinchat/Zlq0k9DMj6cxYTQ9',
   fb:'https://www.facebook.com/gdscvitvellore',
   'org-monster': 'https://chrome.google.com/webstore/detail/org-monster/egilbonoajnapajkbihnalficajlomcn',
   camp2: 'https://dsc.community.dev/e/m4ht92/',
