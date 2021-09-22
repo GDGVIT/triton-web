@@ -50,4 +50,5 @@ export const redirect = {
   pipoblog:'https://medium.com/gdg-vit/pipo-the-journey-from-ideation-to-creation-78e91e1e892d?source=friends_link&sk=ee4abd91c78841c87418ea39014c7ee6',
   camp9:'https://gdsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-vit-vellore-presents-intro-to-ml-devcamp/',
   gcptelegram:'https://t.me/joinchat/nFUPhgOIUbQ5OTQ1',
+  gcpreg:'https://events.withgoogle.com/30daysofgooglecloud/#content',
 }
