@@ -51,4 +51,5 @@ export const redirect = {
   camp9:'https://gdsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-vit-vellore-presents-intro-to-ml-devcamp/',
   gcptelegram:'https://t.me/joinchat/nFUPhgOIUbQ5OTQ1',
   gcpreg:'https://events.withgoogle.com/30daysofgooglecloud/#content',
+  ctfdiscord: 'https://discord.com/invite/GXUWUhgrrg',
 }
