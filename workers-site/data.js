@@ -53,4 +53,5 @@ export const redirect = {
   gcpreg:'https://events.withgoogle.com/30daysofgooglecloud/#content',
   ctfdiscord: 'https://discord.com/invite/GXUWUhgrrg',
   introgcp:'https://gdsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-vit-vellore-presents-introduction-to-gcp/',
+  dj21discord:'https://discord.com/invite/8KMMjA2qRC',
 }
