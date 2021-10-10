@@ -54,4 +54,5 @@ export const redirect = {
   ctfdiscord: 'https://discord.com/invite/GXUWUhgrrg',
   introgcp:'https://gdsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-vit-vellore-presents-introduction-to-gcp/',
   dj21discord:'https://discord.com/invite/8KMMjA2qRC',
+  knockathonmeet:'https://hackclub.zoom.us/j/89847348635?pwd=bGM0WGhnUFQ2enp2d3RsY3VBVDloZz09',
 }
