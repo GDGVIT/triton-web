@@ -55,4 +55,5 @@ export const redirect = {
   introgcp:'https://gdsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-vit-vellore-presents-introduction-to-gcp/',
   dj21discord:'https://discord.com/invite/8KMMjA2qRC',
   knockathonmeet:'https://hackclub.zoom.us/j/83866866126?pwd=VnZqK3dpNHBneC9ZMlhFV2o0RUJ2QT09',
+  gcpsession2:'https://gdsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-vit-vellore-presents-introduction-to-deployment-using-gcp-devcamp/',
 }
