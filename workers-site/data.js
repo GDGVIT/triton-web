@@ -56,4 +56,5 @@ export const redirect = {
   dj21discord:'https://discord.com/invite/8KMMjA2qRC',
   knockathonmeet:'https://hackclub.zoom.us/j/83866866126?pwd=VnZqK3dpNHBneC9ZMlhFV2o0RUJ2QT09',
   gcpsession2:'https://gdsc.community.dev/events/details/developer-student-clubs-vellore-institute-of-technology-vit-vellore-presents-introduction-to-deployment-using-gcp-devcamp/',
+  'privacy-policy': 'https://docs.google.com/document/d/1f3lusjbR8cS-VC7V2slK1vRaeqONORs_-wC2QLPLBnE/edit'
 }
