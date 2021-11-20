@@ -59,4 +59,5 @@ export const redirect = {
   'privacy-policy': 'https://docs.google.com/document/d/1f3lusjbR8cS-VC7V2slK1vRaeqONORs_-wC2QLPLBnE/edit',
   dj21blog:'https://medium.com/@ananyageorge019/622a73dc879e?source=friends_link&sk=1be5d89c03b9c490aa74ce719f69e476',
   dj21appios:'https://apps.apple.com/in/app/devjams21/id1593244374',
+  dj21:'https://www.kumospace.com/devjams-21',
 }
