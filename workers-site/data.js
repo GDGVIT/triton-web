@@ -61,4 +61,5 @@ export const redirect = {
   dj21appios:'https://apps.apple.com/in/app/devjams21/id1593244374',
   dj21:'https://www.kumospace.com/devjams-21',
   ggsblog:'https://pragati1610.medium.com/62f9ec7db091?source=friends_link&sk=dbe13e17f0d66f1a6ecab00fa8c53353',
+  asj1:'https://gdsc.community.dev/e/mbht9m/',
 }
