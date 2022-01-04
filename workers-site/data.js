@@ -64,4 +64,5 @@ export const redirect = {
   asj1:'https://gdsc.community.dev/e/mbht9m/',
   asj21tele:'https://t.me/+DBFst-naM2xkNzRl',
   asj2:'https://gdsc.community.dev/e/mrzrrb/',
+  asj3:'https://gdsc.community.dev/e/mn929x/',
 }
