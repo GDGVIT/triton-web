@@ -38,6 +38,7 @@ export const redirect = {
     'https://play.google.com/store/apps/details?id=com.dscvit.vitty',
   'vitty-extension':
     'https://chrome.google.com/webstore/detail/vitty/eeohmkjefmpmddidkjadpifbfcplkifh',
+  vitty: 'https://vitty.dscvit.com',
   ep6reg:'https://www.youtube.com/watch?v=RV_24cI6GJE&feature=youtu.be',
   searchengine:'https://medium.com/gdg-vit/a-guide-to-understanding-search-engines-b83f12132722',
   notifierblog:'https://medium.com/gdg-vit/notifier-bot-be892baaf445?source=friends_link&sk=57c01e86a29f3d79c29d3ffaeb883c44',
