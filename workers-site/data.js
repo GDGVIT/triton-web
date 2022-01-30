@@ -69,5 +69,6 @@ export const redirect = {
   dnblog:'https://medium.com/@kushojha1209/e95287253c86?source=friends_link&sk=3e9ac615eaec7f9f2abf4e1459b15925',
   dj21build:'https://gdsc.community.dev/e/m4jtwh/',
   rc22:'https://gdsc.community.dev/e/mmcvzw/',
+  recruitments22:'https://recruitments.dscvit.com/',
 
 }
