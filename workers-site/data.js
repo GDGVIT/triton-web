@@ -70,5 +70,6 @@ export const redirect = {
   dj21build:'https://gdsc.community.dev/e/m4jtwh/',
   rc22:'https://gdsc.community.dev/e/mmcvzw/',
   recruitments22:'https://recruitments.dscvit.com/',
+  rc22blog: 'https://medium.com/@asthajha05/e06112160c48?source=friends_link&sk=04f71ba53dfb45f3f65ef3f17b9ef614 ',
 
 }
