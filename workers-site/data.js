@@ -72,5 +72,5 @@ export const redirect = {
   recruitments22:'https://recruitments.dscvit.com/',
   rc22blog: 'https://medium.com/@asthajha05/e06112160c48?source=friends_link&sk=04f71ba53dfb45f3f65ef3f17b9ef614 ',
   rcround2:'https://us02web.zoom.us/j/81929079052?pwd=WDBCYkVYOE4wR3ZBMEx6cGtlMGJTZz09',
-
+  'rcround2-5': 'https://us02web.zoom.us/j/82133405419?pwd=cVJVUlNseVZ3SlZpNlZFbkZXektMZz09',
 }
