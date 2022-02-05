@@ -74,5 +74,6 @@ export const redirect = {
   rcround2:'https://us02web.zoom.us/j/82133405419?pwd=cVJVUlNseVZ3SlZpNlZFbkZXektMZz09',
   'rcround25': 'https://us02web.zoom.us/j/82133405419?pwd=cVJVUlNseVZ3SlZpNlZFbkZXektMZz09',
   'rcdesign3': 'https://hackclub.zoom.us/j/89277726811?pwd=OHE0WVdBQmVLMG9Xc211d3lSRjFjdz09',
-  'rcgd': 'https://us02web.zoom.us/j/83389669854?pwd=OFdTZVNkL3I5Q0VDa2h4NmZkbHlFdz09'
+  'rcgd': 'https://us02web.zoom.us/j/83389669854?pwd=OFdTZVNkL3I5Q0VDa2h4NmZkbHlFdz09',
+  'rcdesign4': 'https://us02web.zoom.us/j/83389669854?pwd=OFdTZVNkL3I5Q0VDa2h4NmZkbHlFdz09',
 }
