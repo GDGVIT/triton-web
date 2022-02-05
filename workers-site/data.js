@@ -73,5 +73,5 @@ export const redirect = {
   rc22blog: 'https://medium.com/@asthajha05/e06112160c48?source=friends_link&sk=04f71ba53dfb45f3f65ef3f17b9ef614 ',
   rcround2:'https://us02web.zoom.us/j/82133405419?pwd=cVJVUlNseVZ3SlZpNlZFbkZXektMZz09',
   'rcround25': 'https://us02web.zoom.us/j/82133405419?pwd=cVJVUlNseVZ3SlZpNlZFbkZXektMZz09',
-  'rcdesign3': 'https://us02web.zoom.us/j/89535102396?pwd=azRINGx4cmxPQWFlNzV4Z2F4MnhBZz09',
+  'rcdesign3': 'https://hackclub.zoom.us/j/89277726811?pwd=OHE0WVdBQmVLMG9Xc211d3lSRjFjdz09',
 }
