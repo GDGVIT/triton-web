@@ -77,4 +77,5 @@ export const redirect = {
   'rcgd': 'https://us02web.zoom.us/j/83389669854?pwd=OFdTZVNkL3I5Q0VDa2h4NmZkbHlFdz09',
   'rcdesign4': 'https://hackclub.zoom.us/j/82175096548?pwd=NzhLdGlGSWRSUkN5dFlTTE1COG5PQT09',
   'rctech':'https://hackclub.zoom.us/j/81013246925?pwd=WFJ4a2g0KzRMbzYxY1k0dWhQdGd2UT09',
+  'rcboard': 'https://calendly.com/chanakyavkapoor/gdsc-board-interview'
 }
