@@ -78,5 +78,6 @@ export const redirect = {
   'rcdesign4': 'https://hackclub.zoom.us/j/82175096548?pwd=NzhLdGlGSWRSUkN5dFlTTE1COG5PQT09',
   'rctech':'https://hackclub.zoom.us/j/81013246925?pwd=WFJ4a2g0KzRMbzYxY1k0dWhQdGd2UT09',
   'rcboard': 'https://calendly.com/chanakyavkapoor/gdsc-board-interview',
-  'rcboard2': 'https://calendly.com/chanakyavkapoor/gdsc-board-interview-2'
+  'rcboard2': 'https://calendly.com/chanakyavkapoor/gdsc-board-interview-2',
+  vittyblog:'https://medium.com/gdg-vit/vitty-from-an-idea-to-a-reality-25bed956bee9?source=friends_link&sk=acb90ba267e9c083428d050cd30b64f8',
 }
