@@ -80,4 +80,5 @@ export const redirect = {
   'rcboard': 'https://calendly.com/chanakyavkapoor/gdsc-board-interview',
   'rcboard2': 'https://calendly.com/chanakyavkapoor/gdsc-board-interview-2',
   vittyblog:'https://medium.com/gdg-vit/vitty-from-an-idea-to-a-reality-25bed956bee9?source=friends_link&sk=acb90ba267e9c083428d050cd30b64f8',
+  sc1:'https://gdsc.community.dev/e/m52puj/',
 }
