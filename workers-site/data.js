@@ -67,4 +67,5 @@ export const redirect = {
   rc22blog: 'https://medium.com/@asthajha05/e06112160c48?source=friends_link&sk=04f71ba53dfb45f3f65ef3f17b9ef614 ',
   vittyblog:'https://medium.com/gdg-vit/vitty-from-an-idea-to-a-reality-25bed956bee9?source=friends_link&sk=acb90ba267e9c083428d050cd30b64f8',
   sc1:'https://gdsc.community.dev/e/m52puj/',
+  sc2:'https://gdsc.community.dev/e/mzwx3m/',
 }
