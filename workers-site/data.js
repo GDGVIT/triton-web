@@ -62,5 +62,6 @@ export const redirect = {
   ff3:'https://gdsc.community.dev/e/mwdh9j/',
   wt22agora: 'https://youtu.be/S2UWWLxNxzw',
   wt22cloudsek:'https://youtu.be/IyFycVjKzA4',
-  ml1: 'https://gdsc.community.dev/e/m76gj4/'
+  ml1: 'https://gdsc.community.dev/e/m76gj4/',
+  mltele: 'https://t.me/+qA8RZtdPMB8xNmM1' 
 }
