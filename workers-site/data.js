@@ -58,6 +58,7 @@ export const redirect = {
   sc3:'https://gdsc.community.dev/e/m873aj/',
   ff2:'https://gdsc.community.dev/e/mw9mk3/',
   wt22: 'https://womentechies.dscvit.com/',
+  wt22app: 'https://womentechies.dscvit.com/',
   wt22discord:'https://discord.com/invite/PvkaBF7yp4',
   ff3:'https://gdsc.community.dev/e/mwdh9j/',
   wt22agora: 'https://youtu.be/S2UWWLxNxzw',
