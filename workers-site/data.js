@@ -65,5 +65,5 @@ export const redirect = {
   wt22cloudsek:'https://youtu.be/IyFycVjKzA4',
   ml1: 'https://gdsc.community.dev/e/m76gj4/',
   mltele: 'https://t.me/+qA8RZtdPMB8xNmM1',
-  ml2: ''https://gdsc.community.dev/e/m2pzx9/,
+  ml2: 'https://gdsc.community.dev/e/m2pzx9/',
 }
