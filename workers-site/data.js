@@ -66,4 +66,5 @@ export const redirect = {
   ml1: 'https://gdsc.community.dev/e/m76gj4/',
   mltele: 'https://t.me/+qA8RZtdPMB8xNmM1',
   ml2: 'https://gdsc.community.dev/e/m2pzx9/',
+  ml3: 'https://gdsc.community.dev/e/mz3428/',
 }
