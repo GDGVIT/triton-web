@@ -68,4 +68,5 @@ export const redirect = {
   ml2: 'https://gdsc.community.dev/e/m2pzx9/',
   ml3: 'https://gdsc.community.dev/e/mz3428/',
   wtcheckin:'https://forms.gle/Z3RAjCV7HSCLYD4x6',
+  wtrev2:'https://us02web.zoom.us/j/82154603017?pwd=VDlMSWtMZURoZEdhSDNPMGNxeTFwUT09',
 }
