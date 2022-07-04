@@ -69,4 +69,5 @@ export const redirect = {
   ml3: 'https://gdsc.community.dev/e/mz3428/',
   wtcheckin:'https://forms.gle/Z3RAjCV7HSCLYD4x6',
   wtrev2:'https://us02web.zoom.us/j/82154603017?pwd=VDlMSWtMZURoZEdhSDNPMGNxeTFwUT09',
+  aiblog: 'https://medium.com/@rtrivedi1743/ai-automation-and-the-future-of-workplaces-65de5d04c475?source=friends_link&sk=4d7351e6dca97b6eda1aa92d92a16b72',
 }
