@@ -73,4 +73,5 @@ export const redirect = {
   aiblog: 'https://medium.com/@rtrivedi1743/ai-automation-and-the-future-of-workplaces-65de5d04c475?source=friends_link&sk=4d7351e6dca97b6eda1aa92d92a16b72',
   typeblog: "https://medium.com/@aastha2003gupta/typography-and-its-impact-on-graphic-design-a1bf3bdd62a0",
   'b-csec': 'https://medium.com/gdg-vit/deciphering-cybersecurity-essentials-88f59b787572',
+  brainMap: 'https://medium.com/gdg-vit/brain-maps-into-building-a-technology-64deb2eb7c70',
 }
