@@ -74,4 +74,5 @@ export const redirect = {
   typeblog: "https://medium.com/@aastha2003gupta/typography-and-its-impact-on-graphic-design-a1bf3bdd62a0",
   'b-csec': 'https://medium.com/gdg-vit/deciphering-cybersecurity-essentials-88f59b787572',
   brainmap: 'https://medium.com/gdg-vit/brain-maps-into-building-a-technology-64deb2eb7c70',
+  gidget:'https://play.google.com/store/apps/details?id=com.dscvit.gidget&hl=en&gl=US',
 }
