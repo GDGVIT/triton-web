@@ -76,4 +76,5 @@ export const redirect = {
   brainmap: 'https://medium.com/gdg-vit/brain-maps-into-building-a-technology-64deb2eb7c70',
   gidget:'https://play.google.com/store/apps/details?id=com.dscvit.gidget&hl=en&gl=US',
   code2doc:'https://code2doc.dscvit.com/',
+  rendermark: 'https://rendermark.dscvit.com/',
 }
