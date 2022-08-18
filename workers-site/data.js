@@ -77,4 +77,5 @@ export const redirect = {
   gidget:'https://play.google.com/store/apps/details?id=com.dscvit.gidget&hl=en&gl=US',
   code2doc:'https://code2doc.dscvit.com/',
   rendermark: 'https://rendermark.dscvit.com/',
+  kvetheus: 'https://kvetheus.dscvit.com/',
 }
