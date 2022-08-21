@@ -78,4 +78,5 @@ export const redirect = {
   code2doc:'https://code2doc.dscvit.com/',
   rendermark: 'https://rendermark.dscvit.com/',
   kvetheus: 'https://kvetheus.dscvit.com/',
+  MoMBoT: 'https://discord.com/api/oauth2/authorize?client_id=978145762456252486&permissions=36825344&scope=bot%20applications.commands'
 }
