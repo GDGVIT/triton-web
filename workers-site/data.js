@@ -79,5 +79,6 @@ export const redirect = {
   rendermark: 'https://rendermark.dscvit.com/',
   kvetheus: 'https://kvetheus.dscvit.com/',
   mombot: 'https://discord.com/api/oauth2/authorize?client_id=978145762456252486&permissions=36825344&scope=bot%20applications.commands',
-  memerai: 'https://play.google.com/store/apps/details?id=com.dscvit.memecaption'
+  memerai: 'https://play.google.com/store/apps/details?id=com.dscvit.memecaption',
+  notix: 'https://play.google.com/store/apps/details?id=com.dscvit.notix'
 }
