@@ -82,4 +82,5 @@ export const redirect = {
   memerai: 'https://play.google.com/store/apps/details?id=com.dscvit.memecaption',
   notix: 'https://play.google.com/store/apps/details?id=com.dscvit.notix',
   dj22discord:'https://discord.gg/8KMMjA2qRC',
+  rstmblog : 'https://medium.com/@kore.ameya/implementing-state-machines-in-rust-designing-uno-efba7288a379',
 }
