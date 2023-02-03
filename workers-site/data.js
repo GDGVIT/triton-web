@@ -85,4 +85,5 @@ export const redirect = {
   rstmblog: 'https://medium.com/@kore.ameya/implementing-state-machines-in-rust-designing-uno-efba7288a379',
   rivieraios: 'https://apps.apple.com/in/app/riviera-23/id1665459606',
   rivieraapp: 'https://play.google.com/store/apps/details?id=in.ac.vit.riviera23',
+  sc23 : 'https://www.youtube.com/watch?v=LSOAe2qbXLM',
 }
