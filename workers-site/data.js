@@ -59,6 +59,7 @@ export const redirect = {
   sc3:'https://gdsc.community.dev/e/m873aj/',
   ff2:'https://gdsc.community.dev/e/mw9mk3/',
   wt: 'https://womentechies.dscvit.com/',
+  wt23: 'https://womentechies.dscvit.com/',
   wt22app: 'https://play.google.com/store/apps/details?id=com.dscvit.wt22',
   wt23discord:'https://discord.com/invite/PvkaBF7yp4',
   ff3:'https://gdsc.community.dev/e/mwdh9j/',
