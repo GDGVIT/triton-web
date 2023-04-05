@@ -88,4 +88,5 @@ export const redirect = {
   rivieraapp: 'https://play.google.com/store/apps/details?id=in.ac.vit.riviera23',
   sc23: 'https://www.youtube.com/watch?v=LSOAe2qbXLM',
   fj23: 'https://www.youtube.com/watch?v=arSXDhopGMo',
+  mr1: 'https://drive.google.com/file/d/1RDlO74pCsiAKtcKTLsDwIlB8ow5m3lOe/view?usp=sharing',
 }
