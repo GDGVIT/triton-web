@@ -90,4 +90,5 @@ export const redirect = {
   fj23: 'https://www.youtube.com/watch?v=arSXDhopGMo',
   mr1: 'https://drive.google.com/file/d/1RDlO74pCsiAKtcKTLsDwIlB8ow5m3lOe/view?usp=sharing',
   fb23: 'https://www.youtube.com/watch?v=F5ruM4zo57s',
+  desr1: 'https://drive.google.com/file/d/1_EcuDU5vjvHBB2e58PBRZ4GWb_vPztCk/view',
 }
