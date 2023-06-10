@@ -96,5 +96,5 @@ export const redirect = {
   techintv: 'https://forms.gle/PL18mDYNBvjwwscf9',
   ajs23: 'https://www.youtube.com/watch?v=CNRfyjVJXN8',
   wt23afmv: 'https://www.youtube.com/watch?v=ir1Ks79qNqY',
-  stampitgdsc: 'https://chrome.google.com/webstore/detail/stampit/dnoalbddcffeeifbjakbmgdaljbfeamf?hl=en&gl=IN&utm_source=gmail'
+  stampit: 'https://chrome.google.com/webstore/detail/stampit/dnoalbddcffeeifbjakbmgdaljbfeamf?hl=en&gl=IN&utm_source=gmail'
 }
