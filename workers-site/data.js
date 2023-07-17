@@ -97,5 +97,6 @@ export const redirect = {
   ajs23: 'https://www.youtube.com/watch?v=CNRfyjVJXN8',
   wt23afmv: 'https://www.youtube.com/watch?v=ir1Ks79qNqY',
   stampit: 'https://chrome.google.com/webstore/detail/stampit/dnoalbddcffeeifbjakbmgdaljbfeamf?hl=en&gl=IN&utm_source=gmail',
-  ctf23: 'https://deconstru.ctf.eng.run/login'
+  ctf23: 'https://deconstru.ctf.eng.run/login',
+  ctfdiscord: 'https://discord.gg/M3tjp9XV'
 }
