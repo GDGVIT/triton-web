@@ -98,5 +98,6 @@ export const redirect = {
   wt23afmv: 'https://www.youtube.com/watch?v=ir1Ks79qNqY',
   stampit: 'https://chrome.google.com/webstore/detail/stampit/dnoalbddcffeeifbjakbmgdaljbfeamf?hl=en&gl=IN&utm_source=gmail',
   ctf23: 'https://deconstru.ctf.eng.run/login',
-  ctfdiscord: 'https://discord.gg/M3tjp9XV'
+  ctfdiscord: 'https://discord.gg/M3tjp9XV',
+  ctfblog: 'https://medium.com/gdg-vit/beginners-guide-to-learn-hacking-with-ctfs-626110a9d199?source=friends_link&sk=ac2312793fc46fd502e4d890f7d5694a'
 }
