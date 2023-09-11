@@ -99,5 +99,6 @@ export const redirect = {
   stampit: 'https://chrome.google.com/webstore/detail/stampit/dnoalbddcffeeifbjakbmgdaljbfeamf?hl=en&gl=IN&utm_source=gmail',
   ctf23: 'https://deconstru.ctf.eng.run/login',
   ctfdiscord: 'https://discord.gg/gxpExarfkz',
-  ctfblog: 'https://medium.com/gdg-vit/beginners-guide-to-learn-hacking-with-ctfs-626110a9d199?source=friends_link&sk=ac2312793fc46fd502e4d890f7d5694a'
+  ctfblog: 'https://medium.com/gdg-vit/beginners-guide-to-learn-hacking-with-ctfs-626110a9d199?source=friends_link&sk=ac2312793fc46fd502e4d890f7d5694a',
+  hexblog: 'https://medium.com/gdg-vit/a-design-dossier-for-hexathon-and-beyond-bf56e588f461?source=friends_link&sk=cfec0ba5620d17b814fcfbf460070b87'
 }
