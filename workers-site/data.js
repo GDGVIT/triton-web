@@ -101,6 +101,5 @@ export const redirect = {
   ctfdiscord: 'https://discord.gg/gxpExarfkz',
   ctfblog: 'https://medium.com/gdg-vit/beginners-guide-to-learn-hacking-with-ctfs-626110a9d199?source=friends_link&sk=ac2312793fc46fd502e4d890f7d5694a',
   hexblog: 'https://medium.com/gdg-vit/a-design-dossier-for-hexathon-and-beyond-bf56e588f461?source=friends_link&sk=cfec0ba5620d17b814fcfbf460070b87',
-  hexreg: 'https://gravitas.vit.ac.in/eventdetails?event=evt_a4bde8ca1ae84a52aff518849d8c9682&image=https://i.imgur.com/TyH1N82.jpg'
-  
+  hexreg: 'https://gravitas.vit.ac.in/eventdetails?event=evt_a4bde8ca1ae84a52aff518849d8c9682&image=https://i.imgur.com/TyH1N82.jpg' 
 }
