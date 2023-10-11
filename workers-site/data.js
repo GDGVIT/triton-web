@@ -102,5 +102,6 @@ export const redirect = {
   ctfblog: 'https://medium.com/gdg-vit/beginners-guide-to-learn-hacking-with-ctfs-626110a9d199?source=friends_link&sk=ac2312793fc46fd502e4d890f7d5694a',
   hexblog: 'https://medium.com/gdg-vit/a-design-dossier-for-hexathon-and-beyond-bf56e588f461?source=friends_link&sk=cfec0ba5620d17b814fcfbf460070b87',
   hexreg: 'https://gravitas.vit.ac.in/eventdetails?event=evt_a4bde8ca1ae84a52aff518849d8c9682&image=https://i.imgur.com/TyH1N82.jpg',
-  'no-incognito-blog':'https://medium.com/gdg-vit/internet-anonymity-101-say-no-to-incognito-3d71b1c4a51e?source=friends_link&sk=2be2369d4e0e084bcc85503f101e8b78'
+  'no-incognito-blog':'https://medium.com/gdg-vit/internet-anonymity-101-say-no-to-incognito-3d71b1c4a51e?source=friends_link&sk=2be2369d4e0e084bcc85503f101e8b78',
+  'deepfake-tango-blog':'https://medium.com/gdg-vit/the-deepfake-tango-a00402597c6c?source=friends_link&sk=d8d0095daab8d82e694085f560f53b29'
 }
