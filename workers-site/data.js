@@ -105,5 +105,6 @@ export const redirect = {
   'no-incognito-blog':'https://medium.com/gdg-vit/internet-anonymity-101-say-no-to-incognito-3d71b1c4a51e?source=friends_link&sk=2be2369d4e0e084bcc85503f101e8b78',
   'deepfake-tango-blog':'https://medium.com/gdg-vit/the-deepfake-tango-a00402597c6c?source=friends_link&sk=d8d0095daab8d82e694085f560f53b29',
   medium:'https://medium.com/gdg-vit',
-  'metaverse-madness-blog' : 'https://medium.com/gdg-vit/metaverse-madness-a73ca02a41e?source=friends_link&sk=e80fdc3eb13bd65563664fba8bf3c945'
+  'metaverse-madness-blog' : 'https://medium.com/gdg-vit/metaverse-madness-a73ca02a41e?source=friends_link&sk=e80fdc3eb13bd65563664fba8bf3c945',
+  'intro-to-rust': 'https://www.youtube.com/watch?v=660-6mU8lYs'
 }
