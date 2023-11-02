@@ -24,6 +24,8 @@ jobs:
       - run: yarn generate
 
       - name: Publish to Cloudflare Workers Sites
+        with:
+          node-version: 17.x
         run: |
           yarn global add wrangler
           mkdir -p ~/.wrangler/config/
