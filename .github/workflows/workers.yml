@@ -25,10 +25,10 @@ jobs:
 
       - name: Publish to Cloudflare Workers Sites
         run: |
-          yarn global add @cloudflare/wrangler
+          yarn global add wrangler
           mkdir -p ~/.wrangler/config/
           echo "api_token=\"${CF_API_TOKEN}\"" > ~/.wrangler/config/default.toml
-          npx @cloudflare/wrangler publish --env production
+          npx wrangler publish --env production
         env:
           SECRETS_ENC_KEY: ${{ secrets.SECRETS_ENC_KEY }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
