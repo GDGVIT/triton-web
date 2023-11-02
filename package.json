@@ -32,7 +32,6 @@
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "2.3.2",
-    "wrangler": "^2.0.0"
+    "prettier": "2.3.2"
   }
 }
