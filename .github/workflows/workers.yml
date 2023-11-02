@@ -15,7 +15,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 12.x
+          node-version: 17.x
       - run: yarn install --frozen-lockfile
 
       - name: Install Wrangler
@@ -24,8 +24,6 @@ jobs:
       - run: yarn generate
 
       - name: Publish to Cloudflare Workers Sites
-        with:
-          node-version: 17.x
         run: |
           yarn global add wrangler
           mkdir -p ~/.wrangler/config/
