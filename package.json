@@ -21,8 +21,7 @@
     "markdown-it-highlightjs": "^3.4.0",
     "nuxt": "^2.14.12",
     "nuxt-highlightjs": "^1.0.1",
-    "simple-analytics-vue": "^1.1.5",
-    "wrangler": "^3.15.0"
+    "simple-analytics-vue": "^1.1.5"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",
@@ -33,6 +32,7 @@
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "2.3.2"
+    "prettier": "2.3.2",
+    "wrangler": "^3.15.0"
   }
 }
