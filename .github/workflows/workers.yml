@@ -17,6 +17,10 @@ jobs:
         with:
           node-version: 12.x
       - run: yarn install --frozen-lockfile
+
+      - name: Install Wrangler
+        run: yarn global add @cloudflare/wrangler
+
       - run: yarn generate
 
       - name: Publish to Cloudflare Workers Sites
