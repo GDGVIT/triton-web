@@ -108,5 +108,6 @@ export const redirect = {
   'metaverse-madness-blog' : 'https://medium.com/gdg-vit/metaverse-madness-a73ca02a41e?source=friends_link&sk=e80fdc3eb13bd65563664fba8bf3c945',
   'intro-to-rust': 'https://www.youtube.com/watch?v=660-6mU8lYs',
   'internet-anonymity-101-blog': 'https://medium.com/gdg-vit/internet-anonymity-101-lurking-in-darkness-2f9e374c0a99?source=friends_link&sk=50a80f7c9f87defa927681ff779adf18',
-  'docker-decoded': 'https://www.youtube.com/live/m8RovG7o5Yw?si=i7C9kNIIAcUnnu2H'
+  'docker-decoded': 'https://www.youtube.com/live/m8RovG7o5Yw?si=i7C9kNIIAcUnnu2H',
+  'black-box-blog': 'https://medium.com/gdg-vit/unboxing-complexity-black-box-networks-demystified-64c170067927'
 }
