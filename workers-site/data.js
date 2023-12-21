@@ -110,5 +110,5 @@ export const redirect = {
   'internet-anonymity-101-blog': 'https://medium.com/gdg-vit/internet-anonymity-101-lurking-in-darkness-2f9e374c0a99?source=friends_link&sk=50a80f7c9f87defa927681ff779adf18',
   'docker-decoded': 'https://www.youtube.com/live/m8RovG7o5Yw?si=i7C9kNIIAcUnnu2H',
   'black-box-blog': 'https://medium.com/gdg-vit/unboxing-complexity-black-box-networks-demystified-64c170067927',
-  'solution-challenge': 'https://www.youtube.com/live/Jh7tc-GwG4k?si=fTTUCoLr6KPd8ROi`
+  'solution-challenge': 'https://www.youtube.com/live/Jh7tc-GwG4k?si=fTTUCoLr6KPd8ROi'
 }
