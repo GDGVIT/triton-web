@@ -114,5 +114,6 @@ export const redirect = {
   'sc24-form': 'https://docs.google.com/forms/d/e/1FAIpQLSftGdrvD-r-X2QcyeYt82EP_7xPxZ_TwmMWItyrGc-7l_7PtQ/viewform',
   'sc24-resources': 'https://docs.google.com/document/d/1-wy3fsDiET9zBRCAs007l0GPknLmM3WCjP7E-mRh4J4/edit?usp=sharing&resourcekey=0-kN67rqXue6lkbSYXX10lMA',
   'sc24-guidelines': 'https://docs.google.com/document/d/1N8FLLXvZOBf6TLKld2NEkOvBrLxAtG_6hkiMPg-5gIY/edit?resourcekey=0-G0k2d8teLnMhm3uyX4SJGA',
-  'sc24-faqs': 'https://docs.google.com/document/d/1aELiFgswIKZ1udbt6CUqVLeEQgpnaSiu8RaQIVcaLXE/edit#heading=h.idqy60rbuqhu'
+  'sc24-faqs': 'https://docs.google.com/document/d/1aELiFgswIKZ1udbt6CUqVLeEQgpnaSiu8RaQIVcaLXE/edit#heading=h.idqy60rbuqhu',
+  'enroll': 'https://gdsc.community.dev/vellore-institute-of-technology-vit-vellore/`
 }
