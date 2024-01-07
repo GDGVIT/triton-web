@@ -116,5 +116,5 @@ export const redirect = {
   'sc24-guidelines': 'https://docs.google.com/document/d/1N8FLLXvZOBf6TLKld2NEkOvBrLxAtG_6hkiMPg-5gIY/edit?resourcekey=0-G0k2d8teLnMhm3uyX4SJGA',
   'sc24-faqs': 'https://docs.google.com/document/d/1aELiFgswIKZ1udbt6CUqVLeEQgpnaSiu8RaQIVcaLXE/edit#heading=h.idqy60rbuqhu',
   'enroll': 'https://gdsc.community.dev/vellore-institute-of-technology-vit-vellore/',
-  
+  'spotify-wrapped-blog': 'https://medium.com/gdg-vit/why-spotify-wrapped-drops-in-november-9d3765058cfc'
 }
