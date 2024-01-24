@@ -45,7 +45,7 @@ export const redirect = {
   tensorflowblog:'https://medium.com/gdg-vit/my-journey-of-becoming-a-tensorflow-certified-developer-9ba6134807b5?source=friends_link&sk=8dfe2284188ae7ab62cc5142eaf2a631',
   hackjudgeblog:'https://medium.com/gdg-vit/hackjudge-from-inception-to-application-af92c0221f04?source=friends_link&sk=df3f0f46ce03ecc9e00be7239aeabd85',
   pipoblog:'https://medium.com/gdg-vit/pipo-the-journey-from-ideation-to-creation-78e91e1e892d?source=friends_link&sk=ee4abd91c78841c87418ea39014c7ee6',
-  'privacy-policy': 'https://dscvit.com/privacy-policy',
+  'privacy-policy': 'https://dscvit.com/privacy-policy.html',
   dj21blog:'https://medium.com/@ananyageorge019/622a73dc879e?source=friends_link&sk=1be5d89c03b9c490aa74ce719f69e476',
   dj21appios:'https://apps.apple.com/in/app/devjams21/id1593244374',
   ggsblog:'https://pragati1610.medium.com/62f9ec7db091?source=friends_link&sk=dbe13e17f0d66f1a6ecab00fa8c53353',
