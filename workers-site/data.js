@@ -119,5 +119,6 @@ export const redirect = {
   'spotify-wrapped-blog': 'https://medium.com/gdg-vit/why-spotify-wrapped-drops-in-november-9d3765058cfc',
   'healthcare-blog': 'https://medium.com/gdg-vit/from-code-to-cure-big-tech-in-healthcare-a155cd84e542',
   'asj-1':'https://www.youtube.com/watch?v=NJaEcyOwAu0',
-  'vittyconnect': 'https://vitty.vercel.app'
+  'vittyconnect': 'https://vitty.vercel.app',
+  vittyconnect2 : 'https://t.ly/3WFKs'
 }
