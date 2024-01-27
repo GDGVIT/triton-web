@@ -121,5 +121,6 @@ export const redirect = {
   'asj-1':'https://www.youtube.com/watch?v=NJaEcyOwAu0',
   'vittyconnect': 'http://vitty.vercel.app',
   vittyconnect2 : 'https://t.ly/3WFKs',
-  'ml-sj':'https://www.youtube.com/watch?v=YqrCjDlU5bY'
+  'ml-sj':'https://www.youtube.com/watch?v=YqrCjDlU5bY',
+  'digital-footprint-blog':'https://medium.com/gdg-vit/internet-anonymity-101-decoding-digital-feet-83db711f64af'
 }
