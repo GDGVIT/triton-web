@@ -122,5 +122,6 @@ export const redirect = {
   'vittyconnect': 'http://vitty.vercel.app',
   vittyconnect2 : 'https://t.ly/3WFKs',
   'ml-sj':'https://www.youtube.com/watch?v=YqrCjDlU5bY',
-  'digital-footprint-blog':'https://medium.com/gdg-vit/internet-anonymity-101-decoding-digital-feet-83db711f64af'
+  'digital-footprint-blog':'https://medium.com/gdg-vit/internet-anonymity-101-decoding-digital-feet-83db711f64af',
+  'quantum-blog':'https://medium.com/gdg-vit/beyond-encryption-navigating-the-quantum-wave-004e74355078'
 }
