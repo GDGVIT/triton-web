@@ -119,7 +119,7 @@ export const redirect = {
   'spotify-wrapped-blog': 'https://medium.com/gdg-vit/why-spotify-wrapped-drops-in-november-9d3765058cfc',
   'healthcare-blog': 'https://medium.com/gdg-vit/from-code-to-cure-big-tech-in-healthcare-a155cd84e542',
   'asj-1':'https://www.youtube.com/watch?v=NJaEcyOwAu0',
-  'vittyconnect': 'http://vitty.vercel.app',
+  'vittyconnect': 'https://beta.vitty.dscvit.app',
   vittyconnect2 : 'https://t.ly/3WFKs',
   'ml-sj':'https://www.youtube.com/watch?v=YqrCjDlU5bY',
   'digital-footprint-blog':'https://medium.com/gdg-vit/internet-anonymity-101-decoding-digital-feet-83db711f64af',
