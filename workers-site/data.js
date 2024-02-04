@@ -125,5 +125,6 @@ export const redirect = {
   'digital-footprint-blog':'https://medium.com/gdg-vit/internet-anonymity-101-decoding-digital-feet-83db711f64af',
   'quantum-blog':'https://medium.com/gdg-vit/beyond-encryption-navigating-the-quantum-wave-004e74355078',
   'vitty-beta': 'https://beta.vitty.dscvit.com',
-  'mlsj-2':'https://www.youtube.com/live/jOyCuSlWIyw?si=S5co5Cl2LFGPn8c3'
+  'mlsj-2':'https://www.youtube.com/live/jOyCuSlWIyw?si=S5co5Cl2LFGPn8c3',
+  'linkcraft':'https://linkcraft.dscvit.com/'
 }
