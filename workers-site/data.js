@@ -126,5 +126,6 @@ export const redirect = {
   'quantum-blog':'https://medium.com/gdg-vit/beyond-encryption-navigating-the-quantum-wave-004e74355078',
   'vitty-beta': 'https://beta.vitty.dscvit.com',
   'mlsj-2':'https://www.youtube.com/live/jOyCuSlWIyw?si=S5co5Cl2LFGPn8c3',
-  'linkcraft':'https://linkcraft.dscvit.com/'
+  'linkcraft':'https://linkcraft.dscvit.com/',
+  'asj-2':'https://www.youtube.com/watch?v=BVpa-QR7GLQ'
 }
