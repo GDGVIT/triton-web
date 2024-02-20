@@ -127,5 +127,6 @@ export const redirect = {
   'vitty-beta': 'https://beta.vitty.dscvit.com',
   'mlsj-2':'https://www.youtube.com/live/jOyCuSlWIyw?si=S5co5Cl2LFGPn8c3',
   'linkcraft':'https://linkcraft.dscvit.com/',
-  'asj-2':'https://www.youtube.com/watch?v=BVpa-QR7GLQ'
+  'asj-2':'https://www.youtube.com/watch?v=BVpa-QR7GLQ',
+  'asj-3':'https://www.youtube.com/watch?v=y9nkT8dHB_0'
 }
