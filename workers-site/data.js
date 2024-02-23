@@ -129,5 +129,6 @@ export const redirect = {
   'linkcraft':'https://linkcraft.dscvit.com/',
   'asj-2':'https://www.youtube.com/watch?v=BVpa-QR7GLQ',
   'asj-3':'https://www.youtube.com/watch?v=y9nkT8dHB_0',
-  'wt-discord':'https://discord.gg/UCbwMRpeee'
+  'wt-discord':'https://discord.gg/UCbwMRpeee',
+  'mlsj-3':'https://www.youtube.com/watch?v=ZiLsiiKnKsU'
 }
