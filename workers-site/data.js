@@ -132,5 +132,6 @@ export const redirect = {
   'wt-discord':'https://discord.gg/JpSngnwe',
   'mlsj-3':'https://www.youtube.com/watch?v=ZiLsiiKnKsU',
   'wt-reg':'https://womentechies24.devfolio.co/',
-  'enrollments':'enrollments24.dscvit.com'
+  'enrollments':'enrollments24.dscvit.com',
+  'recAnswers':'https://youtu.be/dQw4w9WgXcQ?si=3uT7tbDNRZ4jPwSQ'
 }
