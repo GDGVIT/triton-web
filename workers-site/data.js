@@ -133,5 +133,6 @@ export const redirect = {
   'mlsj-3':'https://www.youtube.com/watch?v=ZiLsiiKnKsU',
   'wt-reg':'https://womentechies24.devfolio.co/',
   'enrollments':'https://enrollments24.dscvit.com',
-  'recruitments-answers':'https://youtu.be/dQw4w9WgXcQ?si=3uT7tbDNRZ4jPwSQ'
+  'recruitments-answers':'https://youtu.be/dQw4w9WgXcQ?si=3uT7tbDNRZ4jPwSQ',
+  'runpod-blog':'https://medium.com/gdg-vit/running-through-the-ai-maze-with-runpod-3d8d72115f28'
 }
