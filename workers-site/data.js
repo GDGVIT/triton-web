@@ -137,5 +137,6 @@ export const redirect = {
   'runpod-blog':'https://medium.com/gdg-vit/running-through-the-ai-maze-with-runpod-3d8d72115f28',
   'giza-blog':'https://medium.com/gdg-vit/gizas-guide-to-verifiable-ai-0871860eae8c',
   'dt':'https://forms.gle/ozTxTY4sHyEpwL7V7',
-  'ff-writer':'https://ffwriter.dscvit.com'
+  'ff-writer':'https://ffwriter.dscvit.com',
+  'duolingo-blog':'https://medium.com/@eshasantosh/decoding-duolingo-how-digital-design-can-shape-language-learning-journeys-8a37f48138fc' 
 }
