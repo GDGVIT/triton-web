@@ -138,5 +138,6 @@ export const redirect = {
   'giza-blog':'https://medium.com/gdg-vit/gizas-guide-to-verifiable-ai-0871860eae8c',
   'dt':'https://forms.gle/ozTxTY4sHyEpwL7V7',
   'ff-writer':'https://ffwriter.dscvit.com',
-  'duolingo-blog':'https://medium.com/@eshasantosh/decoding-duolingo-how-digital-design-can-shape-language-learning-journeys-8a37f48138fc' 
+  'duolingo-blog':'https://medium.com/@eshasantosh/decoding-duolingo-how-digital-design-can-shape-language-learning-journeys-8a37f48138fc',
+  'r2-tech':'https://docs.google.com/document/d/1-jr9H2qxobrJVGXPX26R0XOS4zj9OYXJ5nZ1CN978yE/edit?usp=sharing'
 }
