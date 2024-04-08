@@ -139,5 +139,6 @@ export const redirect = {
   'dt':'https://forms.gle/ozTxTY4sHyEpwL7V7',
   'ff-writer':'https://ffwriter.dscvit.com',
   'duolingo-blog':'https://medium.com/@eshasantosh/decoding-duolingo-how-digital-design-can-shape-language-learning-journeys-8a37f48138fc',
-  'r2-tech':'https://docs.google.com/document/d/1-jr9H2qxobrJVGXPX26R0XOS4zj9OYXJ5nZ1CN978yE/edit?usp=sharing'
+  'r2-tech':'https://docs.google.com/document/d/1-jr9H2qxobrJVGXPX26R0XOS4zj9OYXJ5nZ1CN978yE/edit?usp=sharing',
+  'CRM-blog':'https://medium.com/gdg-vit/crafting-customer-connections-exploring-the-realm-of-crm-57be3ea1df18'
 }
