@@ -142,5 +142,6 @@ export const redirect = {
   'r2-tech':'https://docs.google.com/document/d/1-jr9H2qxobrJVGXPX26R0XOS4zj9OYXJ5nZ1CN978yE/edit?usp=sharing',
   'crm-blog':'https://medium.com/gdg-vit/crafting-customer-connections-exploring-the-realm-of-crm-57be3ea1df18',
   'nockapp':'https://nock.dscvit.com',
-  'board-interview': 'https://calendly.com/dscvitvellore/board'
+  'board-interview': 'https://calendly.com/dscvitvellore/board',
+  '2cc-websec':'https://www.youtube.com/watch?v=gLIOfObYIYA'
 }
