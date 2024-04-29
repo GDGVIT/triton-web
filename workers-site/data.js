@@ -13,7 +13,6 @@ export const redirect = {
   yt: 'https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg',
   resources: 'https://resources.dscvit.com',
   discord: 'https://discord.gg/4VqH3RJQXG',
-  telegram:'https://t.me/+yQzlzFK2r05hYzVl',
   tg:'https://t.me/joinchat/Zlq0k9DMj6cxYTQ9',
   fb:'https://www.facebook.com/gdscvitvellore',
   facebook:'https://www.facebook.com/gdscvitvellore',
@@ -144,5 +143,6 @@ export const redirect = {
   'nockapp':'https://nock.dscvit.com',
   'board-interview': 'https://calendly.com/dscvitvellore/board',
   '2cc-websec':'https://www.youtube.com/watch?v=gLIOfObYIYA',
-  '2cc-go-api':'https://www.youtube.com/watch?v=3xvxoPE8Lig'
+  '2cc-go-api':'https://www.youtube.com/watch?v=3xvxoPE8Lig',
+  'telegram':'https://t.me/+yQzlzFK2r05hYzVl'
 }
