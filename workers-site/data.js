@@ -13,7 +13,7 @@ export const redirect = {
   yt: 'https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg',
   resources: 'https://resources.dscvit.com',
   discord: 'https://discord.gg/4VqH3RJQXG',
-  telegram:'https://t.me/joinchat/Zlq0k9DMj6cxYTQ9',
+  telegram:'https://t.me/+f5s5W80-fbxjYzM',
   tg:'https://t.me/joinchat/Zlq0k9DMj6cxYTQ9',
   fb:'https://www.facebook.com/gdscvitvellore',
   facebook:'https://www.facebook.com/gdscvitvellore',
