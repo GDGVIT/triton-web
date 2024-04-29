@@ -143,5 +143,6 @@ export const redirect = {
   'crm-blog':'https://medium.com/gdg-vit/crafting-customer-connections-exploring-the-realm-of-crm-57be3ea1df18',
   'nockapp':'https://nock.dscvit.com',
   'board-interview': 'https://calendly.com/dscvitvellore/board',
-  '2cc-websec':'https://www.youtube.com/watch?v=gLIOfObYIYA'
+  '2cc-websec':'https://www.youtube.com/watch?v=gLIOfObYIYA',
+  '2cc-Go-API':'https://www.youtube.com/watch?v=3xvxoPE8Lig'
 }
