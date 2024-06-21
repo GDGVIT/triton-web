@@ -144,5 +144,6 @@ export const redirect = {
   'board-interview': 'https://calendly.com/dscvitvellore/board',
   '2cc-websec':'https://www.youtube.com/watch?v=gLIOfObYIYA',
   '2cc-go-api':'https://www.youtube.com/watch?v=3xvxoPE8Lig',
-  'telegram':'https://t.me/+yQzlzFK2r05hYzVl'
+  'telegram':'https://t.me/+yQzlzFK2r05hYzVl',
+  'gibspons':'https://gibspons.dscvit.com'
 }
