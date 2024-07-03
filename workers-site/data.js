@@ -146,5 +146,6 @@ export const redirect = {
   '2cc-go-api':'https://www.youtube.com/watch?v=3xvxoPE8Lig',
   'telegram':'https://t.me/+yQzlzFK2r05hYzVl',
   'gibspons':'https://gibspons.dscvit.com',
-  'dj-brochure':'https://drive.google.com/file/d/1R0ckpnhzjairH0_J_pMj_YE-cae10Pbn/view?usp=sharing'
+  'dj-brochure':'https://drive.google.com/file/d/1R0ckpnhzjairH0_J_pMj_YE-cae10Pbn/view?usp=sharing',
+  'quantum-tales-blog':'https://medium.com/gdg-vit/the-quantum-tale-dc12f1df8b22'
 }
