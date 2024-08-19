@@ -3,25 +3,21 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import axios from 'axios';
 
-const Navbar = ({ content }: { content: string }) => {
+const Navbar = ({ content, titleN }: { content: string, titleN:string }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [title, setTitle] = useState('Untitled file');
+  const [title, setTitle] = useState(titleN);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [oAuthToken, setOAuthToken] = useState(localStorage.getItem('token') ?? '');
+  const [oAuthToken, setOAuthToken] = useState('');
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-useEffect(() => {
-  setOAuthToken(localStorage.getItem('token') ?? '');
-  if (!oAuthToken) {
-    setIsLoggedIn(false); // Assuming you have a state variable to track login status
-  }
-  else{
-    setIsLoggedIn(true);
-  }
-}, []); 
+  useEffect(() => {
+    const token = localStorage.getItem('token') ?? '';
+    setOAuthToken(token);
+    setIsLoggedIn(!!token);
+  }, []);
 
   const handleTitleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setTitle(event.target.value);
@@ -59,14 +55,14 @@ useEffect(() => {
           Authorization: `Bearer ${oAuthToken}`,
         },
       });
-      localStorage.removeItem('token'); // This line removes the token
+      localStorage.removeItem('token');
       setIsLoggedIn(false);
+      setOAuthToken('');
       console.log('Logged out successfully');
     } catch (error) {
       console.error('Error logging out:', error);
     }
   };
-  
 
   return (
     <nav className="bg-background flex items-center justify-between p-4 mx-4 font-jetbrains-mono">
@@ -114,11 +110,17 @@ useEffect(() => {
             <Image alt="save icon" src="/save.svg" width={25} height={25} />
             <span>Save</span>
           </button>
-          <form action="http://localhost:8080/v1/auth/login/oauth" method="GET">
-            <button type="submit" className="w-full text-left text-muted hover:text-muted-foreground flex items-center space-x-2">
-              <span>Login</span>
+          {isLoggedIn ? (
+            <button type="button" className="w-full text-left text-muted hover:text-muted-foreground flex items-center space-x-2" onClick={handleLogout}>
+              <span>Logout</span>
             </button>
-          </form>
+          ) : (
+            <form action="http://localhost:8080/v1/auth/login/oauth" method="GET">
+              <button type="submit" className="w-full text-left text-muted hover:text-muted-foreground flex items-center space-x-2">
+                <span>Login</span>
+              </button>
+            </form>
+          )}
         </div>
       )}
     </nav>
