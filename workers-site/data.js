@@ -148,5 +148,6 @@ export const redirect = {
   'gibspons':'https://gibspons.dscvit.com',
   'dj-brochure':'https://drive.google.com/file/d/1ZwcXyO3KYMUukERK7YRVF4iwx_g8m4Um/view?usp=drivesdk',
   'quantum-tales-blog':'https://medium.com/gdg-vit/the-quantum-tale-dc12f1df8b22',
-  'devjams-blog':'https://medium.com/gdg-vit/the-hackathon-hustle-a-devjams-starter-pack-0ee9f6efa932'
+  'devjams-blog':'https://medium.com/gdg-vit/the-hackathon-hustle-a-devjams-starter-pack-0ee9f6efa932',
+  'xr-blog':'https://medium.com/gdg-vit/redefining-reality-an-xr-guide-7f876c89c8ef'
 }
