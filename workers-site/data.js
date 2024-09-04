@@ -146,10 +146,10 @@ export const redirect = {
   '2cc-go-api':'https://www.youtube.com/watch?v=3xvxoPE8Lig',
   'telegram':'https://t.me/+yQzlzFK2r05hYzVl',
   'gibspons':'https://gibspons.dscvit.com',
-  'dj-brochure':'https://drive.google.com/file/d/1ZwcXyO3KYMUukERK7YRVF4iwx_g8m4Um/view?usp=drivesdk',
   'quantum-tales-blog':'https://medium.com/gdg-vit/the-quantum-tale-dc12f1df8b22',
   'devjams-blog':'https://medium.com/gdg-vit/the-hackathon-hustle-a-devjams-starter-pack-0ee9f6efa932',
   'xr-blog':'https://medium.com/gdg-vit/redefining-reality-an-xr-guide-7f876c89c8ef',
   'maps-blog':'https://medium.com/gdg-vit/mapping-the-magic-bts-with-google-maps-d4db92990cba',
-  'hacked-blog':'https://medium.com/gdg-vit/how-i-hacked-into-my-moms-browser-80162e79754e'
+  'hacked-blog':'https://medium.com/gdg-vit/how-i-hacked-into-my-moms-browser-80162e79754e',
+  'dj-brochure':'https://drive.google.com/file/d/1R0ckpnhzjairH0_J_pMj_YE-cae10Pbn/view?usp=sharing'
 }
