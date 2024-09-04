@@ -150,6 +150,6 @@ export const redirect = {
   'quantum-tales-blog':'https://medium.com/gdg-vit/the-quantum-tale-dc12f1df8b22',
   'devjams-blog':'https://medium.com/gdg-vit/the-hackathon-hustle-a-devjams-starter-pack-0ee9f6efa932',
   'xr-blog':'https://medium.com/gdg-vit/redefining-reality-an-xr-guide-7f876c89c8ef',
-  'maps-blog':'https://medium.com/gdg-vit/mapping-the-magic-bts-with-google-maps-d4db92990cba'
+  'maps-blog':'https://medium.com/gdg-vit/mapping-the-magic-bts-with-google-maps-d4db92990cba',
   'hacked-blog':'https://medium.com/gdg-vit/how-i-hacked-into-my-moms-browser-80162e79754e'
 }
