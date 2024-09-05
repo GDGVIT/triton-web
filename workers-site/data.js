@@ -151,5 +151,6 @@ export const redirect = {
   'xr-blog':'https://medium.com/gdg-vit/redefining-reality-an-xr-guide-7f876c89c8ef',
   'maps-blog':'https://medium.com/gdg-vit/mapping-the-magic-bts-with-google-maps-d4db92990cba',
   'hacked-blog':'https://medium.com/gdg-vit/how-i-hacked-into-my-moms-browser-80162e79754e',
-  'dj-brochure':'https://drive.google.com/file/d/1R0ckpnhzjairH0_J_pMj_YE-cae10Pbn/view?usp=sharing'
+  'dj-brochure':'https://drive.google.com/file/d/1R0ckpnhzjairH0_J_pMj_YE-cae10Pbn/view?usp=sharing',
+  'dj-discord':'https://discord.gg/stnuu3BSKy'
 }
