@@ -152,5 +152,6 @@ export const redirect = {
   'maps-blog':'https://medium.com/gdg-vit/mapping-the-magic-bts-with-google-maps-d4db92990cba',
   'hacked-blog':'https://medium.com/gdg-vit/how-i-hacked-into-my-moms-browser-80162e79754e',
   'dj-brochure':'https://drive.google.com/file/d/1R0ckpnhzjairH0_J_pMj_YE-cae10Pbn/view?usp=sharing',
-  'dj-discord':'https://discord.gg/stnuu3BSKy'
+  'dj-discord':'https://discord.gg/stnuu3BSKy',
+  'dj-register':'https://gravitas.vit.ac.in/events/b8b4b0ed-5ad3-431d-9aaa-f253d2c8c1c8'
 }
