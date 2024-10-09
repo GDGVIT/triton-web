@@ -1,8 +1,12 @@
-
-import Pastebin from './components/Pastebin';
+import Pastebin from "./components/Pastebin";
+import { MarkdownProvider } from "./components/MarkdownContent";
 
 const Page = () => {
-  return <Pastebin />;
+  return (
+    <MarkdownProvider>
+      <Pastebin />
+    </MarkdownProvider>
+  );
 };
 
 export default Page;
