@@ -1,0 +1,65 @@
+.markdown-body {
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+ol {
+  padding-left: 1.5rem;
+  list-style-type: decimal;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}

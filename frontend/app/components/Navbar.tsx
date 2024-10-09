@@ -4,12 +4,15 @@ import Image from "next/image";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useMarkdown } from "./MarkdownContent";
 
-const Navbar = ({ content, titleN }: { content: string; titleN: string }) => {
+const Navbar = ({ content, titleN, extensionN }: { content: string; titleN: string; extensionN: string }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [title, setTitle] = useState(titleN);
+  const [extension, setExtension] = useState(extensionN);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [oAuthToken, setOAuthToken] = useState("");
+  const { setIsMarkdown } = useMarkdown();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -18,11 +21,15 @@ const Navbar = ({ content, titleN }: { content: string; titleN: string }) => {
   useEffect(() => {
     const token = localStorage.getItem("token") ?? "";
     setOAuthToken(token);
-    setIsLoggedIn(!token);
+    setIsLoggedIn(!!token); // Set isLoggedIn to true if token exists, otherwise false
   }, []);
 
   const handleTitleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setTitle(event.target.value);
+    const newTitle = event.target.value;
+    setTitle(newTitle);
+    const newExtension = newTitle.split(".").pop();
+    setExtension(newExtension || "");
+    setIsMarkdown(newExtension === "md");
   };
 
   const handleSave = async () => {
@@ -134,7 +141,7 @@ const Navbar = ({ content, titleN }: { content: string; titleN: string }) => {
                 className="w-full text-left text-muted hover:text-muted-foreground flex items-center space-x-2"
                 onClick={handleLogout}
               >
-                <span>Logout</span>
+                <span className="ml-4">Logout</span>
               </button>
             ) : (
               <form
