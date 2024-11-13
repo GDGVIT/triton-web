@@ -154,5 +154,6 @@ export const redirect = {
   'dj-brochure':'https://drive.google.com/file/d/1R0ckpnhzjairH0_J_pMj_YE-cae10Pbn/view?usp=sharing',
   'dj-discord':'https://discord.gg/stnuu3BSKy',
   'dj-register':'https://gravitas.vit.ac.in/events/b8b4b0ed-5ad3-431d-9aaa-f253d2c8c1c8',
-  'deepmind-session':'https://www.youtube.com/watch?v=SGLh-A3z4yI'
+  'deepmind-session':'https://www.youtube.com/watch?v=SGLh-A3z4yI',
+  'gswift-session': 'https://www.youtube.com/watch?v=81kgNLSH15o'
 }
