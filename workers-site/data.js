@@ -156,5 +156,6 @@ export const redirect = {
   'dj-register':'https://gravitas.vit.ac.in/events/b8b4b0ed-5ad3-431d-9aaa-f253d2c8c1c8',
   'deepmind-session':'https://www.youtube.com/watch?v=SGLh-A3z4yI',
   'gswift-session': 'https://www.youtube.com/watch?v=81kgNLSH15o',
-  'flutter-session': 'https://www.youtube.com/watch?v=Q6d2PAENuuc'
+  'flutter-session': 'https://www.youtube.com/watch?v=Q6d2PAENuuc',
+  'sdg-session':'https://www.youtube.com/watch?v=G0B-MNeWGSs'
 }
