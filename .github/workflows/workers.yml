@@ -34,3 +34,4 @@ jobs:
           CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          DEBUG: '*'
