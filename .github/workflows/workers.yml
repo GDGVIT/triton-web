@@ -29,7 +29,7 @@ jobs:
         run: |
           mkdir -p ~/.wrangler/config/
           echo "api_token=\"${CF_API_TOKEN}\"" > ~/.wrangler/config/default.toml
-          yarn wrangler publish --env production --verbose
+          DEBUG=* yarn wrangler publish --env production --verbose
         env:
           SECRETS_ENC_KEY: ${{ secrets.SECRETS_ENC_KEY }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
