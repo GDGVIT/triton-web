@@ -156,5 +156,6 @@ export const redirect = {
   'deepmind-session':'https://www.youtube.com/watch?v=SGLh-A3z4yI',
   'gswift-session': 'https://www.youtube.com/watch?v=81kgNLSH15o',
   'flutter-session': 'https://www.youtube.com/watch?v=Q6d2PAENuuc',
-  'sdg-session':'https://www.youtube.com/watch?v=G0B-MNeWGSs'
+  'sdg-session':'https://www.youtube.com/watch?v=G0B-MNeWGSs',
+  'wt-brochure':'https://drive.google.com/file/d/1FcrPd4gOAFEEUSy67XtSVIXe_mPIWGOc/view?usp=share_link'
 }
