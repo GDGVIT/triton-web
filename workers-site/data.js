@@ -159,5 +159,5 @@ export const redirect = {
   'sdg-session':'https://www.youtube.com/watch?v=G0B-MNeWGSs',
   'wt-brochure':'https://drive.google.com/file/d/1jnOQDXYv2wxAJ4T662NLXWCyTzWgPooZ/view',
   'hex-marketplace':'https://www.youtube.com/watch?v=TgsxcuPeASw&t=27s&ab_channel=GDSCVIT',
-  'hex-discord':'https://discord.gg/7X6PRDZp'
+  'hex-discord':'https://discord.gg/tfHqRNpc'
 }
