@@ -157,7 +157,8 @@ export const redirect = {
   'gswift-session': 'https://www.youtube.com/watch?v=81kgNLSH15o',
   'flutter-session': 'https://www.youtube.com/watch?v=Q6d2PAENuuc',
   'sdg-session':'https://www.youtube.com/watch?v=G0B-MNeWGSs',
-  'wt-brochure':'https://drive.google.com/file/d/1jnOQDXYv2wxAJ4T662NLXWCyTzWgPooZ/view',
   'hex-marketplace':'https://www.youtube.com/watch?v=TgsxcuPeASw&ab_channel=GDSCVIT',
-  'hex-discord':'https://discord.gg/tfHqRNpc'
+  'hex-discord':'https://discord.gg/tfHqRNpc',
+  'wt-brochure':'https://drive.google.com/file/d/1PpfINeD_5tmi4lRgE0GTIG5ocR4waEhc/view?usp=sharing'
+
 }
