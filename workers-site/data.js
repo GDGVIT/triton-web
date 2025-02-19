@@ -159,6 +159,7 @@ export const redirect = {
   'sdg-session':'https://www.youtube.com/watch?v=G0B-MNeWGSs',
   'hex-marketplace':'https://www.youtube.com/watch?v=TgsxcuPeASw&ab_channel=GDSCVIT',
   'hex-discord':'https://discord.gg/tfHqRNpc',
-  'wt-brochure':'https://drive.google.com/file/d/1PpfINeD_5tmi4lRgE0GTIG5ocR4waEhc/view?usp=sharing'
+  'wt-brochure':'https://drive.google.com/file/d/1PpfINeD_5tmi4lRgE0GTIG5ocR4waEhc/view?usp=sharing',
+  'ultrachat':'https://github.com/GDGVIT/ultrachat'
 
 }
