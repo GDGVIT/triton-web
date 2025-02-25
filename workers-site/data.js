@@ -163,5 +163,5 @@ export const redirect = {
   'ultrachat':'https://github.com/GDGVIT/ultrachat',
   'wasd-editor':'https://github.com/GDGVIT/wasd-editor',
   'ao3-assist':'https://github.com/GDGVIT/ao3-chrome-extension',
-  'enroll-discord':'https://discord.gg/fWZ3nyhw7V'
+  'recruitments-discord':'https://discord.gg/fWZ3nyhw7V'
 }
