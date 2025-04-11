@@ -164,5 +164,6 @@ export const redirect = {
   'wasd-editor':'https://github.com/GDGVIT/wasd-editor',
   'ao3-assist':'https://github.com/GDGVIT/ao3-chrome-extension',
   'recruitments-discord':'https://discord.gg/fWZ3nyhw7V',
-  'wt-discord':'https://discord.gg/Vucm87Ne'
+  'wt-discord':'https://discord.gg/Vucm87Ne',
+  'osint-blog': 'https://medium.com/gdg-vit/how-to-stalk-your-ex-legally-9e7247cc5221'
 }
