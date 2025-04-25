@@ -167,5 +167,6 @@ export const redirect = {
   'wt-discord':'https://discord.gg/Vucm87Ne',
   'osint-blog': 'https://medium.com/gdg-vit/how-to-stalk-your-ex-legally-9e7247cc5221',
   'bms-blog':'https://medium.com/gdg-vit/why-you-didnt-get-coldplay-tickets-78154a30e898',
-  'fairplay-blog':'https://medium.com/gdg-vit/tech-on-the-field-the-real-mvp-232bcd9a2fed'
+  'fairplay-blog':'https://medium.com/gdg-vit/tech-on-the-field-the-real-mvp-232bcd9a2fed',
+  'nbody-blog': 'https://medium.com/gdg-vit/simulating-the-universe-on-your-computer-8ce964d7d5a1'
 }
