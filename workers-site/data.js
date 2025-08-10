@@ -169,5 +169,6 @@ export const redirect = {
   'bms-blog':'https://medium.com/gdg-vit/why-you-didnt-get-coldplay-tickets-78154a30e898',
   'fairplay-blog':'https://medium.com/gdg-vit/tech-on-the-field-the-real-mvp-232bcd9a2fed',
   'nbody-blog': 'https://medium.com/gdg-vit/simulating-the-universe-on-your-computer-8ce964d7d5a1',
-  'swift-course':'https://www.udemy.com/course/get-schwifty/'
+  'swift-course':'https://www.udemy.com/course/get-schwifty/',
+  'gamedev-blog':'https://medium.com/gdg-vit/want-your-own-game-before-gta-6-c7a79c0a8e2a'
 }
