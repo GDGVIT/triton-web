@@ -170,5 +170,6 @@ export const redirect = {
   'fairplay-blog':'https://medium.com/gdg-vit/tech-on-the-field-the-real-mvp-232bcd9a2fed',
   'nbody-blog': 'https://medium.com/gdg-vit/simulating-the-universe-on-your-computer-8ce964d7d5a1',
   'swift-course':'https://www.udemy.com/course/get-schwifty/',
-  'gamedev-blog':'https://medium.com/gdg-vit/want-your-own-game-before-gta-6-c7a79c0a8e2a'
+  'gamedev-blog':'https://medium.com/gdg-vit/want-your-own-game-before-gta-6-c7a79c0a8e2a',
+  'vfx-blog':'https://medium.com/gdg-vit/behind-the-green-screen-6034c6deece3'
 }
