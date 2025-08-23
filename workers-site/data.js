@@ -171,5 +171,6 @@ export const redirect = {
   'nbody-blog': 'https://medium.com/gdg-vit/simulating-the-universe-on-your-computer-8ce964d7d5a1',
   'swift-course':'https://www.udemy.com/course/get-schwifty/',
   'gamedev-blog':'https://medium.com/gdg-vit/want-your-own-game-before-gta-6-c7a79c0a8e2a',
-  'vfx-blog':'https://medium.com/gdg-vit/behind-the-green-screen-6034c6deece3'
+  'vfx-blog':'https://medium.com/gdg-vit/behind-the-green-screen-6034c6deece3',
+  'vibecoding-blog':'https://medium.com/gdg-vit/how-vibe-coding-won-me-20-and-cost-me-my-soul-37679bdff9e7'
 }
