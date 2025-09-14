@@ -173,5 +173,6 @@ export const redirect = {
   'gamedev-blog':'https://medium.com/gdg-vit/want-your-own-game-before-gta-6-c7a79c0a8e2a',
   'vfx-blog':'https://medium.com/gdg-vit/behind-the-green-screen-6034c6deece3',
   'vibecoding-blog':'https://medium.com/gdg-vit/how-vibe-coding-won-me-20-and-cost-me-my-soul-37679bdff9e7',
-  'dj-register':'https://gravitas.vit.ac.in/events/2fb279bf-3ec3-4ad9-a39b-5c06ea15d33f'
+  'dj-register':'https://gravitas.vit.ac.in/events/2fb279bf-3ec3-4ad9-a39b-5c06ea15d33f',
+  'dj25-discord' : 'https://discord.gg/HUtMTwQkXE'
 }
