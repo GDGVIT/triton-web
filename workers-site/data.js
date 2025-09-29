@@ -174,6 +174,6 @@ export const redirect = {
   'vfx-blog':'https://medium.com/gdg-vit/behind-the-green-screen-6034c6deece3',
   'vibecoding-blog':'https://medium.com/gdg-vit/how-vibe-coding-won-me-20-and-cost-me-my-soul-37679bdff9e7',
   'dj-register':'https://gravitas.vit.ac.in/events/2fb279bf-3ec3-4ad9-a39b-5c06ea15d33f',
-  'dj25-discord' : 'https://discord.gg/HUtMTwQkXE'
-  'dubbing-blog' : 'https://medium.com/@adityarohillaa/that-foreign-film-youre-watching-was-dubbed-by-an-ai-here-s-how-ce862a800e97'
+  'dj25-discord' : 'https://discord.gg/HUtMTwQkXE',
+  'dubbing-blog' : 'https://medium.com/gdg-vit/that-foreign-film-youre-watching-it-was-dubbed-by-ai-896d07bc7429'
 }
