@@ -175,5 +175,6 @@ export const redirect = {
   'vibecoding-blog':'https://medium.com/gdg-vit/how-vibe-coding-won-me-20-and-cost-me-my-soul-37679bdff9e7',
   'dj-register':'https://gravitas.vit.ac.in/events/2fb279bf-3ec3-4ad9-a39b-5c06ea15d33f',
   'dj25-discord' : 'https://discord.gg/HUtMTwQkXE',
-  'dubbing-blog' : 'https://medium.com/gdg-vit/that-foreign-film-youre-watching-it-was-dubbed-by-ai-896d07bc7429'
+  'dubbing-blog' : 'https://medium.com/gdg-vit/that-foreign-film-youre-watching-it-was-dubbed-by-ai-896d07bc7429',
+  'clone-blog' : 'https://medium.com/@acharya.aditya.2005/whatsapp-bot-with-rag-walkthrough-496c1c424200',
 }
