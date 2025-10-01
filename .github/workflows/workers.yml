@@ -5,7 +5,6 @@ on: [push]
 jobs:
   deploy-main:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
 
