@@ -6,17 +6,19 @@ jobs:
   deploy-main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      - name: Cache yarn dependencies
-        uses: c-hive/gha-yarn-cache@v1
-
-      - name: Use Node.js
-        uses: actions/setup-node@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 12.x
-      - run: yarn install --frozen-lockfile
-      - run: yarn generate
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build project
+        run: yarn generate
 
       - name: Publish to Cloudflare Workers Sites
         run: |
