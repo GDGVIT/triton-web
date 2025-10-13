@@ -179,5 +179,6 @@ export const redirect = {
   'clone-blog' : 'https://medium.com/@acharya.aditya.2005/whatsapp-bot-with-rag-walkthrough-496c1c424200',
   'audios-blog' : 'https://medium.com/@jiashrimalani11/the-algorithms-mixtape-how-audios-become-viral-bops-6986dcb2fd2c',
   ping: 'https://dscvit.com',
-  'modukit' : 'https://github.com/GDGVIT/modular-point-system'
+  'modukit' : 'https://github.com/GDGVIT/modular-point-system',
+  'shellshare' : 'https://github.com/GDGVIT/p2p-share-backend/'
 }
