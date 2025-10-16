@@ -180,5 +180,6 @@ export const redirect = {
   'audios-blog' : 'https://medium.com/@jiashrimalani11/the-algorithms-mixtape-how-audios-become-viral-bops-6986dcb2fd2c',
   ping: 'https://dscvit.com',
   'modukit' : 'https://github.com/GDGVIT/modular-point-system',
-  'shellshare' : 'https://github.com/GDGVIT/p2p-share-backend/'
+  'shellshare' : 'https://github.com/GDGVIT/p2p-share-backend/',
+  'shufflers-keep' : 'https://gdscvit.itch.io/deck-builder'
 }
