@@ -181,5 +181,6 @@ export const redirect = {
   ping: 'https://dscvit.com',
   'modukit' : 'https://github.com/GDGVIT/modular-point-system',
   'shellshare' : 'https://github.com/GDGVIT/p2p-share-backend/',
-  'shufflers-keep' : 'https://gdscvit.itch.io/deck-builder'
+  'shufflers-keep' : 'https://gdscvit.itch.io/deck-builder',
+  'glimpse' : 'https://pub.dev/packages/flutter_glimpse'
 }
