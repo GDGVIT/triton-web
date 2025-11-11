@@ -1,17 +1,19 @@
 import { getAssetFromKV } from '@cloudflare/kv-asset-handler'
-import { data, redirect } from './data.js'
+import { data, mediumRedirect, redirect } from './data.js'
 
+const MEDIUM_URL = 'https://medium.com/gdg-vit/'
 const GITHUB_USERNAME = 'GDGVIT'
 const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`
 const PERMISSIONS_POLICY =
   'accelerometer=(), autoplay=(), camera=(), encrypted-media=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), sync-xhr=(), usb=()'
+const analyticsUrl = ANALYTICS_URL + 'analytics/data'
 
-function playstoreLink(name) {
+function playstoreLink (name) {
   return `https://play.google.com/store/apps/details?id=com.dscvit.${name}`
 }
 
 export async function handleRequest(event) {
-  return redirectGitHub(event)
+  return redirectRequest(event)
 }
 
 async function getPageFromKV(event) {
@@ -31,26 +33,41 @@ async function getPageFromKV(event) {
   } catch (e) {
     try {
       const notFoundResponse = await getAssetFromKV(event, {
-        mapRequestToAsset: (req) => new Request(`${new URL(req.url).origin}/404.html`, req),
+        mapRequestToAsset: (req) => new Request(`${new URL(req.url).origin}/404.html`, req)
       })
       return new Response(notFoundResponse.body, {
         ...notFoundResponse,
-        status: 404,
+        status: 404
       })
     } catch (e) {}
     return new Response(e.message || e.toString(), { status: 500 })
   }
 }
 
-async function redirectGitHub(event) {
+async function redirectRequest(event) {
   const urlParts = event.request.url
     .split('?')[0]
     .replace(BASE_URL, '')
     .split('/')
     .map((s) => s.toLowerCase())
-  if (redirect[urlParts[0]]) {
-    return Response.redirect(redirect[urlParts[0]], 301)
+  if (
+    redirect[urlParts[0]] ||
+    urlParts[0] == 'g' ||
+    (urlParts[0] == 'm' && mediumRedirect[urlParts[1]]) ||
+    urlParts[0] == 'app' ||
+    urlParts[0] == 'm'
+  ) {
+    // event.waitUntil(Promise) takes in promise and executes it asynchronously even if response is sent!
+    event.waitUntil(makePostRequest({ shortLink: event.request.url }))
   }
+
+  // redirect to analytics
+  if (urlParts[0] === 'analytics') return Response.redirect(analyticsUrl, 301)
+
+  // redirect to shortlink
+  if (redirect[urlParts[0]]) return Response.redirect(redirect[urlParts[0]], 301)
+
+  // redirect to github GDGVIT repos
   if (urlParts[0] == 'g') {
     switch (urlParts.length) {
       case 1:
@@ -63,10 +80,33 @@ async function redirectGitHub(event) {
         return Response.redirect(`${GITHUB_URL}/${urlParts[1]}/issues/${urlParts[3]}`, 301)
     }
   }
+
+  // redirects to blogs
+  if (urlParts[0] == 'm' && mediumRedirect[urlParts[1]]) {
+    return Response.redirect(mediumRedirect[urlParts[1]], 301)
+  }
+
+  // if the provided article name isn't valid then redirected to dscvit medium homepage
+  if (urlParts[0] == 'm') {
+    return Response.redirect(`${MEDIUM_URL}`, 301)
+  }
+
   // only works for android apps.
   // cannot handle ios apps right now.
   if (urlParts[0] == 'app') {
     return Response.redirect(playstoreLink(urlParts[1]), 301)
   }
   return getPageFromKV(event)
+}
+
+// function posts the analytics
+function makePostRequest(body) {
+  const init = {
+    body: JSON.stringify(body),
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json;charset=UTF-8'
+    }
+  }
+  return fetch(analyticsUrl, init)
 }
