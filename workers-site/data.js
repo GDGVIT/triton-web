@@ -182,5 +182,6 @@ export const redirect = {
   'modukit' : 'https://github.com/GDGVIT/modular-point-system',
   'shellshare' : 'https://github.com/GDGVIT/p2p-share-backend/',
   'shufflers-keep' : 'https://gdscvit.itch.io/deck-builder',
-  'glimpse' : 'https://pub.dev/packages/flutter_glimpse'
+  'glimpse' : 'https://pub.dev/packages/flutter_glimpse',
+  'gamedev-session' : 'https://www.youtube.com/watch?v=chphTbqMUWI'
 }
