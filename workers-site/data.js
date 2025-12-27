@@ -183,5 +183,6 @@ export const redirect = {
   'shellshare' : 'https://github.com/GDGVIT/p2p-share-backend/',
   'shufflers-keep' : 'https://gdscvit.itch.io/deck-builder',
   'glimpse' : 'https://pub.dev/packages/flutter_glimpse',
-  'gamedev-session' : 'https://www.youtube.com/watch?v=chphTbqMUWI'
+  'gamedev-session' : 'https://www.youtube.com/watch?v=chphTbqMUWI',
+  'webdev-session' : 'https://www.youtube.com/watch?v=PQtlrTk3jBk'
 }
