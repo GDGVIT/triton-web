@@ -1,5 +1,6 @@
 export const redirect = {
   afterhours: 'https://afterhours.dscvit.com',
+  'recruitment-tech-2': 'https://docs.google.com/document/d/1c3o6nc_j70n3pyhrnXoEDUdh-hHK7azYCRjs190oMQo/edit?usp=sharing',
   dscid:'https://medium.com/gdg-vit/how-to-handle-imbalanced-datasets-d33d10678c8a?source=friends_link&sk=45f724429b0dc51eb2846bf05c18af9f',
   community: 'https://gdsc.community.dev/vellore-institute-of-technology-vit-vellore/',
   insta: 'https://www.instagram.com/gdscvitvellore/',
