@@ -185,5 +185,6 @@ export const redirect = {
   'shufflers-keep' : 'https://gdscvit.itch.io/deck-builder',
   'glimpse' : 'https://pub.dev/packages/flutter_glimpse',
   'gamedev-session' : 'https://www.youtube.com/watch?v=chphTbqMUWI',
-  'webdev-session' : 'https://www.youtube.com/watch?v=PQtlrTk3jBk'
+  'webdev-session' : 'https://www.youtube.com/watch?v=PQtlrTk3jBk',
+  'hex26-discord' : 'https://discord.gg/Raw5SQ87aa'
 }
