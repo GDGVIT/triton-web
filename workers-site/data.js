@@ -189,4 +189,5 @@ export const redirect = {
   'hex26-discord' : 'https://discord.gg/Raw5SQ87aa',
   'wt26-brochure' : 'https://drive.google.com/file/d/1Mlgomz2jdu-Yyu23R19NGMSbIcMdvElb/view?usp=sharing',
   'wt26-discord' : 'https://discord.gg/bMSkNBbaXk'
+  'wt26-reg' : 'https://gdg.community.dev/e/m7nfuy/'
 }
