@@ -190,7 +190,7 @@ export const redirect = {
   'wt26-brochure' : 'https://drive.google.com/file/d/1Mlgomz2jdu-Yyu23R19NGMSbIcMdvElb/view?usp=sharing',
   'wt26-discord' : 'https://discord.gg/bMSkNBbaXk',
   'wt26-reg' : 'https://gdg.community.dev/e/m7nfuy/',
-  'wt26-ps' : 'https://drive.google.com/file/d/1DjcQTu6XRRCiN3s4JiVMhHCVmkZVY_Hg/view?usp=sharing',
+  'wt26-ps' : 'https://drive.google.com/file/d/1IThuezFR_JTTzQMSLxJWis65w4c3pN__/view?usp=sharing',
   'wt26website-p' : 'https://womentechies26.dscvit.com/?utm_source=instagram&utm_medium=social&utm_campaign=wt26_launch&utm_content=post',
   'wt26website-s' : 'https://womentechies26.dscvit.com/?utm_source=instagram&utm_medium=story&utm_campaign=wt26_launch&utm_content=story',
 }
