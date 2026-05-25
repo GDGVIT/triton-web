@@ -1,5 +1,5 @@
 import { getAssetFromKV } from '@cloudflare/kv-asset-handler'
-import { data, redirect } from './data.js'
+import { redirect } from './data.js'
 
 const GITHUB_USERNAME = 'GDGVIT'
 const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`
