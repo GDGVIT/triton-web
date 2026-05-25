@@ -24,7 +24,7 @@
     "simple-analytics-vue": "^1.1.5"
   },
   "devDependencies": {
-    "wrangler": "^3.0.0",
+    "wrangler": "^2.20.0",
     "@nuxtjs/eslint-config": "^5.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/tailwindcss": "^3.4.2",
