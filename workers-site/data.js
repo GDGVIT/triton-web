@@ -194,5 +194,6 @@ export const redirect = {
   'wt26website-p' : 'https://womentechies26.dscvit.com/?utm_source=instagram&utm_medium=social&utm_campaign=wt26_launch&utm_content=post',
   'wt26website-s' : 'https://womentechies26.dscvit.com/?utm_source=instagram&utm_medium=story&utm_campaign=wt26_launch&utm_content=story',
   'schrodinger-blog' : 'https://medium.com/gdg-vit/schr%C3%B6dingers-cat-was-a-joke-we-built-it-anyway-885ea55f5b2d',
-  'pandemic-blog' : 'https://medium.com/gdg-vit/simulating-the-end-of-the-world-41dc4829bca2'
+  'pandemic-blog' : 'https://medium.com/gdg-vit/simulating-the-end-of-the-world-41dc4829bca2',
+  'optimization-blog' : 'https://medium.com/gdg-vit/your-device-is-cheating-on-you-7a9fb5f405f9'
 }
