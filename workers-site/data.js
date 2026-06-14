@@ -196,5 +196,6 @@ export const redirect = {
   'schrodinger-blog' : 'https://medium.com/gdg-vit/schr%C3%B6dingers-cat-was-a-joke-we-built-it-anyway-885ea55f5b2d',
   'pandemic-blog' : 'https://medium.com/gdg-vit/simulating-the-end-of-the-world-41dc4829bca2',
   'optimization-blog' : 'https://medium.com/gdg-vit/your-device-is-cheating-on-you-7a9fb5f405f9',
-  'devops-session' : 'https://www.youtube.com/watch?v=4qM8uZ-5KC0'
+  'devops-session' : 'https://www.youtube.com/watch?v=4qM8uZ-5KC0',
+  'rts-blog' : 'https://medium.com/gdg-vit/the-art-of-being-good-enough-2f6fcbf7a6b0'
 }
