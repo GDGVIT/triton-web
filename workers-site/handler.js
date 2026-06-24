@@ -42,6 +42,16 @@ async function getPageFromKV(event) {
   }
 }
 
+function getRedirectResponse(url) {
+  return new Response(null, {
+    status: 302,
+    headers: {
+      Location: url,
+      'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0',
+    },
+  })
+}
+
 async function redirectGitHub(event) {
   const urlParts = event.request.url
     .split('?')[0]
@@ -49,24 +59,24 @@ async function redirectGitHub(event) {
     .split('/')
     .map((s) => s.toLowerCase())
   if (redirect[urlParts[0]]) {
-    return Response.redirect(redirect[urlParts[0]], 302)
+    return getRedirectResponse(redirect[urlParts[0]])
   }
   if (urlParts[0] == 'g') {
     switch (urlParts.length) {
       case 1:
-        return Response.redirect(GITHUB_URL, 302)
+        return getRedirectResponse(GITHUB_URL)
       case 2:
-        return Response.redirect(`${GITHUB_URL}/${urlParts[1]}`, 302)
+        return getRedirectResponse(`${GITHUB_URL}/${urlParts[1]}`)
       case 3:
-        return Response.redirect(`${GITHUB_URL}/${urlParts[1]}/commit/${urlParts[2]}`, 302)
+        return getRedirectResponse(`${GITHUB_URL}/${urlParts[1]}/commit/${urlParts[2]}`)
       case 4:
-        return Response.redirect(`${GITHUB_URL}/${urlParts[1]}/issues/${urlParts[3]}`, 302)
+        return getRedirectResponse(`${GITHUB_URL}/${urlParts[1]}/issues/${urlParts[3]}`)
     }
   }
   // only works for android apps.
   // cannot handle ios apps right now.
   if (urlParts[0] == 'app') {
-    return Response.redirect(playstoreLink(urlParts[1]), 302)
+    return getRedirectResponse(playstoreLink(urlParts[1]))
   }
   return getPageFromKV(event)
 }
