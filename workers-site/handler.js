@@ -11,7 +11,16 @@ function playstoreLink(name) {
 }
 
 export async function handleRequest(event) {
+  await clearCacheForRequest(event.request)
   return redirectGitHub(event)
+}
+
+async function clearCacheForRequest(request) {
+  const cache = caches.default
+  const url = new URL(request.url)
+  await cache.delete(request)
+  const cleanRequest = new Request(url.origin + url.pathname, request)
+  await cache.delete(cleanRequest)
 }
 
 async function getPageFromKV(event) {
