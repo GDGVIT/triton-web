@@ -197,5 +197,6 @@ export const redirect = {
   'pandemic-blog' : 'https://medium.com/gdg-vit/simulating-the-end-of-the-world-41dc4829bca2',
   'optimization-blog' : 'https://medium.com/gdg-vit/your-device-is-cheating-on-you-7a9fb5f405f9',
   'devops-session' : 'https://www.youtube.com/watch?v=4qM8uZ-5KC0',
-  'rts-blog' : 'https://medium.com/gdg-vit/the-art-of-being-good-enough-2f6fcbf7a6b0'
+  'rts-blog' : 'https://medium.com/gdg-vit/the-art-of-being-good-enough-2f6fcbf7a6b0',
+  'dj-brochure' : 'https://drive.google.com/file/d/1e99jAnNVeMlFYQ2E1RN_MTsfLcbJ-L8D/view?usp=sharing'
 }
