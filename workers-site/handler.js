@@ -49,24 +49,24 @@ async function redirectGitHub(event) {
     .split('/')
     .map((s) => s.toLowerCase())
   if (redirect[urlParts[0]]) {
-    return Response.redirect(redirect[urlParts[0]], 301)
+    return Response.redirect(redirect[urlParts[0]], 302)
   }
   if (urlParts[0] == 'g') {
     switch (urlParts.length) {
       case 1:
-        return Response.redirect(GITHUB_URL, 301)
+        return Response.redirect(GITHUB_URL, 302)
       case 2:
-        return Response.redirect(`${GITHUB_URL}/${urlParts[1]}`, 301)
+        return Response.redirect(`${GITHUB_URL}/${urlParts[1]}`, 302)
       case 3:
-        return Response.redirect(`${GITHUB_URL}/${urlParts[1]}/commit/${urlParts[2]}`, 301)
+        return Response.redirect(`${GITHUB_URL}/${urlParts[1]}/commit/${urlParts[2]}`, 302)
       case 4:
-        return Response.redirect(`${GITHUB_URL}/${urlParts[1]}/issues/${urlParts[3]}`, 301)
+        return Response.redirect(`${GITHUB_URL}/${urlParts[1]}/issues/${urlParts[3]}`, 302)
     }
   }
   // only works for android apps.
   // cannot handle ios apps right now.
   if (urlParts[0] == 'app') {
-    return Response.redirect(playstoreLink(urlParts[1]), 301)
+    return Response.redirect(playstoreLink(urlParts[1]), 302)
   }
   return getPageFromKV(event)
 }
