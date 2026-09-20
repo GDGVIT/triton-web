@@ -201,5 +201,6 @@ export const redirect = {
   'dj-brochure' : 'https://drive.google.com/file/d/1e99jAnNVeMlFYQ2E1RN_MTsfLcbJ-L8D/view?usp=sharing',
   'dj26-brochure' : 'https://drive.google.com/file/d/11nJ01EvScin61av-X1K8J-Q-2wkmGRXM/view?usp=sharing',
   'dj26-register' : 'https://gravitas.vit.ac.in/events/01fe0783-1b61-461c-b306-fc8c118f9607',
-  'dj26-discord' :  'https://discord.gg/JvsSduFQHP'
+  'dj26-discord' :  'https://discord.gg/JvsSduFQHP',
+  'scada-blog': 'https://medium.com/gdg-vit/how-to-hack-a-water-plant-dear-fbi-it-was-a-simulation-d2b7f433d084'
 }
