@@ -202,5 +202,6 @@ export const redirect = {
   'dj26-brochure' : 'https://drive.google.com/file/d/11nJ01EvScin61av-X1K8J-Q-2wkmGRXM/view?usp=sharing',
   'dj26-register' : 'https://gravitas.vit.ac.in/events/01fe0783-1b61-461c-b306-fc8c118f9607',
   'dj26-discord' :  'https://discord.gg/JvsSduFQHP',
-  'scada-blog': 'https://medium.com/gdg-vit/how-to-hack-a-water-plant-dear-fbi-it-was-a-simulation-d2b7f433d084'
+  'scada-blog': 'https://medium.com/gdg-vit/how-to-hack-a-water-plant-dear-fbi-it-was-a-simulation-d2b7f433d084',
+  'systemdesign-blog': 'https://medium.com/gdg-vit/hogwarts-has-a-surveillance-problem-b10ec9f12448'
 }
