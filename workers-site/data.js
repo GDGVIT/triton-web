@@ -204,5 +204,6 @@ export const redirect = {
   'dj26-discord' :  'https://discord.gg/JvsSduFQHP',
   'scada-blog': 'https://medium.com/gdg-vit/how-to-hack-a-water-plant-dear-fbi-it-was-a-simulation-d2b7f433d084',
   'systemdesign-blog': 'https://medium.com/gdg-vit/hogwarts-has-a-surveillance-problem-b10ec9f12448',
-  'wildcard-entry' : 'https://forms.gle/mS2xjJchprwwZbFU7'
+  'wildcard-entry' : 'https://forms.gle/mS2xjJchprwwZbFU7',
+  'tea-blog' : 'https://medium.com/gdg-vit/dad-called-me-a-failure-i-built-his-replacement-instead-d921723630d0'
 }
